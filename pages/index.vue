@@ -1,6 +1,6 @@
 <template>
   <div class="">
-    <h1 class="text-4xl">Blog Posts</h1>
+    <h1 class="text-4xl">The Garden</h1>
     <ul class="grid grid-cols-4 gap-8 mt-8">
       <PostPreview v-for="post in posts" :key="post.slug" :post="post"></PostPreview>
     </ul>
