@@ -9,6 +9,12 @@ module.exports = {
         'sepia': 'url("assets/texture/vintage-concrete.png")',
       },
     },
+    theme: {
+      fontFamily: {
+        sans: {},
+        serif: {}
+      }
+    }
   },
   variants: {
     extend: {
