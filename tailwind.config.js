@@ -21,5 +21,5 @@ module.exports = {
       backgroundImage: ['dark', 'sepia'],
     },
   },
-  plugins: [],
+  plugins: [require('@tailwindcss/typography')],
 }
