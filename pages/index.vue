@@ -1,9 +1,11 @@
 <template>
   <div class="">
     <h1 class="text-4xl">The Garden</h1>
-    <ul class="grid grid-cols-4 gap-8 mt-8">
+    <masonry :cols="3" :gutter="10">
+    <!-- <ul class="grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 lg:gap-8 md:gap-4 mt-8"> -->
       <PostPreview v-for="post in posts" :key="post.slug" :post="post"></PostPreview>
-    </ul>
+    <!-- </ul> -->
+    </masonry>
   </div>
 </template>
 
