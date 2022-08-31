@@ -8,17 +8,20 @@ module.exports = {
         'light': 'url("assets/texture/so-white.png")',
         'sepia': 'url("assets/texture/vintage-concrete.png")',
       },
+      keyframes: {
+      },
+      animation: {
+      },
     },
-    theme: {
-      fontFamily: {
-        sans: {},
-        serif: {}
-      }
+    fontFamily: {
+      'sans': ['Quicksand'],
+      'delius': ['Delius'],
     }
   },
   variants: {
     extend: {
       backgroundImage: ['dark', 'sepia'],
+      animation: ['hover', 'group-hover']
     },
   },
   plugins: [require('@tailwindcss/typography')],

@@ -1,10 +1,8 @@
 <template>
-  <div class="">
-    <h1 class="text-4xl">The Garden</h1>
+  <div class="font-sans">
+    <h1 class="text-4xl text-center">The Garden</h1>
     <masonry :cols="3" :gutter="10">
-    <!-- <ul class="grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 lg:gap-8 md:gap-4 mt-8"> -->
       <PostPreview v-for="post in posts" :key="post.slug" :post="post"></PostPreview>
-    <!-- </ul> -->
     </masonry>
   </div>
 </template>

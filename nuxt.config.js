@@ -1,10 +1,8 @@
 export default {
-  // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
 
-  // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'Constance Hermit',
+    title: 'Drawn To Code',
     htmlAttrs: {
       lang: 'en'
     },
@@ -19,37 +17,35 @@ export default {
     ]
   },
 
-  // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
   ],
 
-  // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
     '~/plugins/masonry.js'
   ],
 
-  // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
 
-  // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
-    // https://go.nuxtjs.dev/typescript
     '@nuxt/typescript-build',
-    // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
+    '@nuxtjs/google-fonts',
   ],
 
-  // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
-    // https://go.nuxtjs.dev/content
     '@nuxt/content',
     'vue-masonry-css'
   ],
 
-  // Content module configuration: https://go.nuxtjs.dev/config-content
   content: {},
 
-  // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
-  }
+  },
+
+  googleFonts: {
+    families: {
+      Delius: true,
+      Quicksand: true,
+    }
+  },
 }
