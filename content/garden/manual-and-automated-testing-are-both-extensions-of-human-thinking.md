@@ -18,3 +18,5 @@ We employ tools to extend our capabilities, in fact, [Our Thinking May Not Happe
 References: 
 > So the false dichotomy that I’m referring to here is this notion of a split between human testing and automated testing such that we can ask which is better in some categorical sense. 
 - [Jeff Nyman: A False Dichotomy of Modern Testing](http://testerstories.com/2018/11/a-false-dichotomy-of-modern-testing/)
+
+[Our Thinking May Not Happen Only In The Brain]: /garden/our-thinking-may-not-happen-only-in-the-brain "Our Thinking May Not Happen Only In The Brain"
