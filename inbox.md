@@ -6,5 +6,7 @@
 - How refactoring is like brownfield house (inspecting machinery tubes seeing connections)
 - History of Human Automated Interaction [Research Paper](https://www.sciencedirect.com/science/article/pii/S1071581919300552)
 - Working with the Garage Door up [Andy M](https://notes.andymatuschak.org/z21cgR9K3UcQ5a7yPsj2RUim3oM2TzdBByZu)
-- Testing is more than just assertions (human activities) - link back to [[Manual and Automated Testing are both Extensions of Human Thinking]]
+- Testing is more than just assertions (human activities) - link back to [[manual-and-automated-testing-are-both-extensions-of-human-thinking.md]]
 - Sustainable Software [Increment Article](https://increment.com/containers/containers-for-sustainable-software-engineering/)
+- Function Invocation (fancy call) Visual Metaphor 
+- Finding Bugs top down and bottom up, looking outside and reading code, different ones
