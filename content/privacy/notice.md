@@ -32,4 +32,4 @@ We're hosted by [**Netlify**](https://www.netlify.com/), and although we do **no
 You can read their [privacy policy](https://www.netlify.com/privacy/) and [GDPR notice](https://www.netlify.com/gdpr-ccpa/) for more information.
 
 ## That's it?
-Yep! If you need the more in-depth version, we have an actual privacy policy [here](/legal/policy), for legal purposes.
+Yep! If you need the more in-depth version, we have an actual privacy policy [here](/privacy/legal/policy), for legal purposes.
