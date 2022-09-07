@@ -1,3 +1,5 @@
+const { readonly } = require('vue');
+
 module.exports = {
   darkMode: 'class',
   content: [],
@@ -11,6 +13,19 @@ module.exports = {
       keyframes: {
       },
       animation: {
+      },
+      typography: {
+        DEFAULT: {
+          css: {
+            a: {
+              color: '#3182ce', 
+              '&:hover': {
+                color: '#2c5282',
+              },
+              textDecoration: 'none',
+            }
+          }
+        }
       },
     },
     fontFamily: {
