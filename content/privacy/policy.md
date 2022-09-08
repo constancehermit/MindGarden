@@ -1,8 +1,44 @@
 ---
 title: Privacy Policy
 createdAt: 06.09.2022
-updatedAt: 07.09.2022
+updatedAt: 08.09.2022
 ---
+# Privacy Notice
+
+[Drawn to Code](https://drawntocode.com) is a personal website.  
+It is a humble repository of thoughts. A small serving of static content.  
+Despite it's insignificance, we are told, a privacy policy is obligatory. 
+
+## What information do we collect & why?
+
+**We intentionally collect as little information as possible.** 
+In two cases we do process personal information indirectly, though. 
+
+### 1. Usage Data
+This is collected automatically when you access our website. A inevitable effect of using the internet!
+- **IP address**
+- **Browser** type and version
+- **Pages** you visit
+
+### 2. Cookies 
+To make our website more user friendly, we may use cookies (or similar, like the browser local storage). Examples:
+- **Language Preference** 
+- **Theme Preference** (e.g. dark-mode)
+
+## What information do we share with third parties? 
+
+### Usage Data
+We're hosted by [**Netlify**](https://www.netlify.com/), and although we do **not** have analytics enabled, it's standard for hosting companies to collect some usage data.  
+You can read their [privacy policy](https://www.netlify.com/privacy/) and [GDPR notice](https://www.netlify.com/gdpr-ccpa/) for more information.
+
+## That's it?
+If you need the proper in-depth version you can read on.  
+Otherwise, yep, that's it! 
+
+--- 
+
+# Privacy Policy
+
 This Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your information when You use the Service and tells You about Your privacy rights and how the law protects You. We use Your Personal data to provide and improve the Service. By using the Service, You agree to the collection and use of information in accordance with this Privacy Policy.  
 
 *This Privacy Policy has been created with the help of the <a href="https://www.freeprivacypolicy.com/free-privacy-policy-generator/" target="_blank">Free Privacy Policy Generator</a>.*
@@ -16,7 +52,7 @@ he words of which the initial letter is capitalized have meanings defined under 
 ## Definitions
 For the purposes of this Privacy Policy:
 - **Account** means a unique account created for You to access our Service or parts of our Service.
-- **Company** (referred to as either &quot;the Company&quot;, &quot;We&quot;, &quot;Us&quot; or &quot;Our&quot; in this Agreement) refers to Drawn To Code.
+- **Company** (referred to as either "the Company", "We", "Us" or "Our" in this Agreement) refers to Drawn To Code.
 - **Cookies** are small files that are placed on Your computer, mobile device or any other device by a website, containing the details of Your browsing history on that website among its many uses.
 - **Country** refers to Germany
 - **Device** means any device that can access the Service such as a computer, a cellphone or a digital tablet.
@@ -49,7 +85,7 @@ We use Cookies and similar tracking technologies to track the activity on Our Se
 
 - **Cookies or Browser Cookies.** A cookie is a small file placed on Your Device. You can instruct Your browser to refuse all Cookies or to indicate when a Cookie is being sent. However, if You do not accept Cookies, You may not be able to use some parts of our Service. Unless you have adjusted Your browser setting so that it will refuse Cookies, our Service may use Cookies.
 
-Cookies can be &quot;Persistent&quot; or &quot;Session&quot; Cookies. Persistent Cookies remain on Your personal computer or mobile device when You go offline, while Session Cookies are deleted as soon as You close Your web browser. We use both Session and Persistent Cookies for the purposes set out below:  
+Cookies can be "Persistent" or "Session" Cookies. Persistent Cookies remain on Your personal computer or mobile device when You go offline, while Session Cookies are deleted as soon as You close Your web browser. We use both Session and Persistent Cookies for the purposes set out below:  
 
 
 - **Necessary / Essential Cookies**
@@ -129,7 +165,7 @@ We have no control over and assume no responsibility for the content, privacy po
 
 --- 
 # Changes to this Privacy Policy
-We may update Our Privacy Policy from time to time. We will notify You of any changes by posting the new Privacy Policy on this page. We will update the &quot;Last updated&quot; date at the top of this Privacy Policy.
+We may update Our Privacy Policy from time to time. We will notify You of any changes by posting the new Privacy Policy on this page. We will update the "Last updated" date at the top of this Privacy Policy.
 
 You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.
 
