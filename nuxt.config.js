@@ -50,9 +50,9 @@ export default {
   },
 
   hooks: {
-    'content:note:beforeParse': (note) => {
-      if (note.extension !== '.md') return;
-      note.data = note.data.replace(/\]\(([^\)]*)\)/g, "](/garden/$1)");
+    'content:file:beforeParse': (file) => {
+      if (file.extension !== '.md') return;
+      file.data = file.data.replace(/\]\(([^\)]*)\)/g, "](/garden/$1)");
     }
   },
 }
