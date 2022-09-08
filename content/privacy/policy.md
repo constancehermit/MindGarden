@@ -1,10 +1,8 @@
 ---
-title: Privacy Policy
+title: Privacy Notice
 createdAt: 06.09.2022
 updatedAt: 08.09.2022
 ---
-# Privacy Notice
-
 [Drawn to Code](https://drawntocode.com) is a personal website.  
 It is a humble repository of thoughts. A small serving of static content.  
 Despite it's insignificance, we are told, a privacy policy is obligatory. 
