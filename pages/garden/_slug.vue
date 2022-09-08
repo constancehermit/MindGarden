@@ -6,12 +6,12 @@
         <div>
           <NuxtLink to="/" href="/" class="block text-gray-400 mt-8">← Go Back</NuxtLink>
           <div class="border-b-2 border-slate-300 border-solid pt-12 pb-4">
-              <h1 class="text-3xl">{{post.title}}</h1>
+              <h1 class="text-3xl">{{note.title}}</h1>
           </div>
-          <ul v-if="post.tags" class="flex space-x-3 mt-2 pb-2">
+          <ul v-if="note.tags" class="flex space-x-3 mt-2 pb-2">
             <li
               class="text-gray-400 font-bold"
-              v-for="tag in post.tags"
+              v-for="tag in note.tags"
               :key="tag"
             >
               {{ tag }}
@@ -19,7 +19,7 @@
           </ul>
         </div>
         
-        <nuxt-content class="mt-4 prose max-w-none" :document="post" />
+        <nuxt-content class="mt-4 prose max-w-none" :document="note" />
       </div>
     </div>
   </article>
@@ -28,8 +28,8 @@
 <script>
 export default {
   async asyncData({ $content, params }) {
-    const post = await $content('garden', params.slug).fetch()
-    return { post }
+    let note = await $content('garden', params.slug).fetch()
+    return { note }
   },
 }
 </script>

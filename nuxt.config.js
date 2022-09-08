@@ -48,4 +48,11 @@ export default {
       Quicksand: true,
     }
   },
+
+  hooks: {
+    'content:note:beforeParse': (note) => {
+      if (note.extension !== '.md') return;
+      note.data = note.data.replace(/\]\(([^\)]*)\)/g, "](/garden/$1)");
+    }
+  },
 }
