@@ -15,7 +15,7 @@
 
 export default {
     async asyncData({ $content, params }) {
-        const policy = await $content('privacy', params.slug).fetch()
+        const policy = await $content('legal', params.slug).fetch()
         return { policy }
     },
     methods: {
