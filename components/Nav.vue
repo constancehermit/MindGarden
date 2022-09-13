@@ -2,13 +2,19 @@
     <nav class="ml-4 h-16 py-4">
         <div class="space-x-2">  
             <span> 
+                Study
+                <!-- <NuxtLink to="/study">Study</NuxtLink> -->
+            </span>
+            <span> 
                 <NuxtLink to="/">Garden</NuxtLink>
              </span>
             <span> 
-                <NuxtLink to="/library">Library</NuxtLink>
+                Library
+                <!-- <NuxtLink to="/library">Library</NuxtLink> -->
             </span>
             <span> 
-                <NuxtLink to="/study">Study</NuxtLink>
+                Atelier
+                <!-- <NuxtLink to="/atelier">Atelier</NuxtLink> -->
             </span>
         </div>
     </nav>
