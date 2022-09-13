@@ -1,6 +1,6 @@
 <template>
 <div class="transition duration-500 ease-in-out hover:-translate-y-1">
-    <div class=" bg-light dark:bg-dark bg-repeat shadow p-3 m-2 h-fit rounded-md">
+    <div class="bg-white bg-repeat shadow p-3 m-2 h-fit rounded-md">
       <li class="list-none">
         <a :href="`/garden/${post.slug}`">
           <ul v-if="post.tags" class="flex space-x-1 mt-2">

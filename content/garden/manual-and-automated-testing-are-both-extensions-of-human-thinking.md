@@ -3,7 +3,6 @@ title: Manual and Automated Testing are both Extensions of Human Thinking
 tags: 
     - testing
     - automation
-    - thoughts
 createdAt: 17.08.2022
 updatedAt: 07.09.2022
 ---
