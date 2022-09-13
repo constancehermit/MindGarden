@@ -18,10 +18,12 @@ export default {
   },
 
   css: [
+    '@fortawesome/fontawesome-svg-core/styles.css',
   ],
 
   plugins: [
-    '~/plugins/masonry.js'
+    '~/plugins/masonry.js',
+    '~/plugins/fontawesome.js',
   ],
 
   components: true,
@@ -30,6 +32,7 @@ export default {
     '@nuxt/typescript-build',
     '@nuxtjs/tailwindcss',
     '@nuxtjs/google-fonts',
+    // '@nuxtjs/fontawesome',
   ],
 
   modules: [
@@ -48,6 +51,12 @@ export default {
       Quicksand: true,
     }
   },
+
+  // fontawesome:  {
+  //   icons: {
+  //     brands : [ 'faTwitter', ],
+  //   }
+  // },
 
   hooks: {
     'content:file:beforeParse': (file) => {
