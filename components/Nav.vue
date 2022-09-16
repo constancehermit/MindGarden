@@ -18,7 +18,7 @@
                     <!-- <NuxtLink to="/atelier">Atelier</NuxtLink> -->
                 </span>
             </div>
-            <div class="block w-auto text-base">
+            <div class="block w-auto text-base mr-4">
                     <a href="https://github.com/constancehermit/MindGarden">
                         <font-awesome-icon  :icon="{ prefix: 'fab', iconName: 'github' }" class="fa-lg"/>
                     </a>

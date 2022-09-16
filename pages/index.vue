@@ -13,10 +13,10 @@
         :cols="{default: 3, 1024: 3, 768: 2, 640: 1}" 
         :gutter="{default: 10, 1024: 10, 768: 8, 640: 4}"
       >
-      <PostPreview 
+      <NotePreview 
         v-for="post in posts" :key="post.slug" :post="post"
         class="mr-2"
-      ></PostPreview>
+      ></NotePreview>
     </masonry>
     </div>
   </div>
