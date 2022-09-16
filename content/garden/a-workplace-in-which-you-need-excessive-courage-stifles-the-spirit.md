@@ -4,7 +4,7 @@ tags:
     - software development
     - compassion
 createdAt: 14.09.2022
-updatedAt: 14.09.2022
+updatedAt: 16.09.2022
 ---
 
 ## Work In Progress

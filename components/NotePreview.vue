@@ -8,7 +8,7 @@
               {{ tag }}
             </li>
           </ul>
-          <h2 class="mt-2 text-2xl font-semibold">{{ post.title }}</h2>
+          <h2 class="mt-2 text-2xl font-semibold mb-4">{{ post.title }}</h2>
         </a>
       </li>
     </div>
