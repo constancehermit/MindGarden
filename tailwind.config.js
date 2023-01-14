@@ -39,4 +39,11 @@ module.exports = {
     },
   },
   plugins: [require('@tailwindcss/typography')],
+  purge: {
+    options: {
+      safelist: [{
+        pattern: /^h-/,
+      }],
+    },
+  }
 }
