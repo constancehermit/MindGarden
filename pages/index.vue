@@ -6,7 +6,7 @@
         <span class="prose">
           <i>In French, “cultiver son jardin intérieur” means to tend to your internal garden—to take care of your mind. 
           The garden metaphor is particularly apt: taking care of your mind involves cultivating your curiosity (the seeds), 
-          growing your knowledge (the trees), and producing new thoughts (the fruits).</i> <br/>
+          growing your knowledge (the trees), and producing new thoughts (the fruits).</i> 
           -- <a href="https://nesslabs.com/mind-garden">Anne-Laure Le Cunff</a>
         </span> 
       </div>

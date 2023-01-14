@@ -42,7 +42,7 @@ module.exports = {
   purge: {
     options: {
       safelist: [{
-        pattern: /^h-/,
+        pattern: /^h-/, 
       }],
     },
   }
