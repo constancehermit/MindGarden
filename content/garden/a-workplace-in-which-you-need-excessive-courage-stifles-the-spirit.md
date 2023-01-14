@@ -3,8 +3,9 @@ title: A Workplace in which you need Excessive Courage Stifles the Spirit
 tags: 
     - software development
     - compassion
-createdAt: 14.09.2022
-updatedAt: 16.09.2022
+firstPlanted: "2022-09-14T00:00:00.000Z"
+lastTended: "2022-09-16T00:00:00.000Z"
+growthStage: sprout
 ---
 
 ## Work In Progress
@@ -24,13 +25,13 @@ updatedAt: 16.09.2022
 - Might incl. making people uncomfortable, speaking up against injustice, bringing attention to difficult subjects. 
 - Bad communication can cripple motivation/productivity
 
-<note-image
+<note-polaroid-image
     src="a-workplace-in-which-you-need-excessive-courage-stifles-the-spirit/psychological-safety-lizandmollie-twitter.jpeg"
     alt="Illustration of a Venn Diagram showing that people share more ideas when they feel belonging"
     caption="This is where I will add a caption"
     sourcelink="https://twitter.com/lizandmollie/status/1383820134154858500?s=20&t=yrGCv21ihByadBlXtU43OA"
     sourcetext="Twitter">
-</note-image>
+</note-polaroid-image>
 
 ---
 References: 

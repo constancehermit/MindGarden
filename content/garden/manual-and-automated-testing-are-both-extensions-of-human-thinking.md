@@ -3,8 +3,9 @@ title: Manual and Automated Testing are both Extensions of Human Thinking
 tags: 
     - testing
     - automation
-createdAt: 17.08.2022
-updatedAt: 07.09.2022
+firstPlanted: "2022-08-17T00:00:00.000Z"
+lastTended: "2022-09-07T00:00:00.000Z"
+growthStage: seed
 ---
 A computer can check for an expected result, and do so much more often and quickly than a person, but only in the way it's programmed to. [Testing spans many more activities than making assertions.]() All which comes before the pass/fail check, like examining biases and questioning design decisions, is part of a manual, human, process. 
 

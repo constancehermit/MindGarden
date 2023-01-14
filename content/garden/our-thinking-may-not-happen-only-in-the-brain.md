@@ -2,8 +2,9 @@
 title: Our Thinking may not Happen Only in the Brain
 tags: 
     - cognition
-createdAt: 17.08.2022
-updatedAt: 17.08.2022
+firstPlanted: "2022-08-17T00:00:00.000Z"
+lastTended: "2022-08-17T00:00:00.000Z"
+growthStage: seed
 ---
 
 Embodied Cognition theorizes that our whole bodies are involved, and Embedded Cognition takes that further and suggests that we include frequently-used tools in our body representation. 

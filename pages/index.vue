@@ -35,8 +35,7 @@
     export default {
       async asyncData({ $content }) {
         const posts = await $content('garden')
-          .only(['title', 'tags', 'slug'])
-          .sortBy('updatedAt', 'desc')
+          .sortBy('lastTended', 'desc')
           .fetch()
         return {
           posts,
