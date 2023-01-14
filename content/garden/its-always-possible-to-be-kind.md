@@ -6,6 +6,7 @@ tags:
 firstPlanted: "2018-04-28T00:00:00.000Z"
 lastTended: "2018-04-28T00:00:00.000Z"
 growthStage: sprout
+thumbnail: "its-always-possible-to-be-kind/marcel-gehlen-99s-tweet.png"
 ---
 
 ## Out of the Comfort Zone, on to the Stage

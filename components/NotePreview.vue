@@ -12,6 +12,11 @@
             <growth-stage-icon :growthStage="post.growthStage"></growth-stage-icon>  
           </div>
           <h2 class="mt-2 text-2xl font-semibold mb-4">{{ post.title }}</h2>
+          <img 
+            v-if="post.thumbnail" 
+            :src="imgSrc(post.thumbnail)"
+            class=""
+          />
         </a>
       </li>
     </div>
@@ -22,6 +27,16 @@ import GrowthStageIcon from './global/GrowthStageIcon.vue'
 export default {
   props: {
     post: Object,
+  },
+  methods: {
+    imgSrc(partial) {
+      try {
+        return require(`~/assets/images/${partial}`)
+      } catch (error) {
+        // TODO: return a default image
+        return null
+      }
+    }
   }
 }
 </script>
