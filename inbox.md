@@ -8,4 +8,4 @@
 - Sustainable Software [Increment Article](https://increment.com/containers/containers-for-sustainable-software-engineering/)
 - Function Invocation (fancy call) Visual Metaphor 
 - Finding Bugs top down and bottom up, looking outside and reading code, different ones
--  You’re a wizard sharing instructions for knitting ideas into the behavior of Infinitely patient rocks [Romeu Moura Twitter](https://twitter.com/malk_zameth/status/1049494430670102530?s=20&t=VE-eGVdOqpVCHg3sx9n57g)
+- You’re a wizard sharing instructions for knitting ideas into the behavior of Infinitely patient rocks [Romeu Moura Twitter](https://twitter.com/malk_zameth/status/1049494430670102530?s=20&t=VE-eGVdOqpVCHg3sx9n57g)
