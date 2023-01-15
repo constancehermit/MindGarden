@@ -18,14 +18,14 @@ thumbnail: "gatling-i/preview-thumbnail.png"
 It seems to me that performance testing is often neglected and pushed back as a "nice to have" stretch-goal, instead of being a core part of the test automation strategy. 
 So if you're putting it off because it seems intimidating or difficult, you've come to the right place.
 
-A combination of visual explanation, reading, and hands-on tinkering is usually a winner for me, so: I've illustrated some concepts (in part one) talked about design (in part two), and designed a workshop (in part three). I hope you give it a go!
+A combination of visual explanation, reading, and hands-on tinkering is usually a winner for me, so: I've illustrated some concepts (in [Part One](load-testing-with-gatling-i)) talked about design ([Part Two](load-testing-with-gatling-ii)), and designed a workshop (in part three). I hope you give it a go!
 
 ---
-
 # Part One: Concepts
 If you already understand how web apps work and how Gatling actually does load testing, feel free to skip to Part Two to think about designing tests, or to Part Three (coming soon) for some hands-on coding. 
 Otherwise, get ready for analogies, since visualisation, personification, and story-telling are my best friends when it comes to understanding concepts.  
 
+---
 ## Load Testing?
 
 Succinctly from [Wikipedia](https://en.wikipedia.org/wiki/Software_performance_testing): 
@@ -45,6 +45,7 @@ They must wait! Can't they see we're still in the Introduction?
     is-center>
 </note-illustration-image>
 
+---
 ## Why Gatling?
 I like using it. Does that qualify as enough justification on it's own?  
 
@@ -82,6 +83,7 @@ Let’s skip straight to adoption. Our team see the value in automated performan
 
 <spacer height="10"></spacer>
 
+---
 ## Writing the test is not the hard part
 
 Most guides that I've seen jump straight into the how without pausing to consider the why. 
@@ -104,8 +106,8 @@ Knowing what on earth you're doing in the context of the whole, what to test, wh
 Having the knowledge and experience necessary to puzzle out those aspects is what good testers get paid for! 
 That's not today's topic, though, so let's re-focus on the task at hand. Let's move on to Concepts, since understanding those will help with everything else. 
 
+---
 ## System Under (Intense) Test
-
 
 With Gatling, our target SUITs are Web Applications.
 
@@ -120,7 +122,7 @@ If it's running on a web server, accessible over an internet connection, then it
     is-center>
 </note-illustration-image>
 
-
+---
 ## How do web apps work?
 
 ### Imagine a Café...
@@ -153,6 +155,7 @@ TODO: Slideshow goes here
 
 <spacer height="6"></spacer>
 
+---
 ## Response Time is our Key Metric
 
 When it comes to Web Apps, speed is **really** important. 
@@ -173,6 +176,7 @@ That's not to say that response time is the **only** metric, or aspect of the re
     is-center>
 </note-illustration-image>
 
+---
 ## How does Gatling work?
 
 Alright, so interacting with a Web App is a bit like ordering at a food place. How does Gatling go about stressing that system?  </p>
@@ -212,8 +216,9 @@ The simulation is where we describe the user populations, how quickly they'll be
 Let's say we have a population of 100 users executing scenario A. Do we want all 100 users to start sending their requests to our app at the same time? Ramp up the number of users over a set time? 
 It all depends on what we're modelling. A learning platform on a Saturday will expect a very different workload than an e-commerce site on Black Friday.
 
+---
 ## End of Part One
-That's it for concepts! Keep an eye out for Part Two, in which we'll be examining what good performance looks like, and discussing various aspects of test design (from environment to metrics and working with our team). 
+That's it for concepts! Keep an eye out for [Part Two](load-testing-with-gatling-ii), in which we'll be examining what good performance looks like, and discussing various aspects of test design (from environment to metrics and working with our team). 
 
 <note-illustration-image
     src="gatling-i/last.png"

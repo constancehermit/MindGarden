@@ -2,7 +2,7 @@
   <div :class="[isCenter ? 'grid place-items-center' : '']">
     <div 
       class="sm:max-w-full md:max-w-sm"
-      :class="[isFullWidth ? 'lg:max-w-full' : 'lg:max-w-md']">
+      :class="[isFullWidth ? 'lg:max-w-full' : 'lg:max-w-lg']">
       <img 
       :src="imgSrc()" :alt="alt" 
       class="mt-0 mb-1"/>
