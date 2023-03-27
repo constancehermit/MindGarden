@@ -14,4 +14,5 @@
 - Why the Test Pyramid is bullshit and thinking in layers instead [Medium Article](https://medium.com/@mateuszroth/why-the-test-pyramid-is-a-bullshit-guide-to-testing-towards-modern-frontend-and-backend-apps-4246e89b87bd)
 - Elegant untested code, or messy tested code? [Article](https://www.geocene.com/hacky-slack/2021/04/06/elegant-or-tested-code.html) [Reddit](https://www.reddit.com/r/ExperiencedDevs/comments/t0tuf4/tested_shitty_code_vs_high_quality_code_without/)
 - Trying Contracts instead of Plans [Blog Post](https://dragonsforelevenses.com/2022/12/22/why-i-prefer-a-test-contract-to-a-test-plan/)
-
+- Struggles as a Junior Coder, feelings and tips [Blog Post](https://www.freecodecamp.org/news/how-im-working-to-overcome-my-struggles-as-a-junior-developer-a6ab18ac29b2/)
+- Shamanic Programming [Blog Post](https://www.simplermachines.com/nouveau-shamanic-programming/)
