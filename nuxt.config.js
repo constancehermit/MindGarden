@@ -61,7 +61,7 @@ export default {
   hooks: {
     'content:file:beforeParse': (file) => {
       if (file.extension !== '.md') return;
-      file.data = file.data.replace(/\]\(([^\)]*)\)/g, "](/garden/$1)");
+      file.data = file.data.replace(/\]\(((?!http))([^\)]*)\)/g, "](/garden/$2)")
     }
   },
 }
