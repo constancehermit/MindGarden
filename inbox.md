@@ -16,3 +16,4 @@
 - Trying Contracts instead of Plans [Blog Post](https://dragonsforelevenses.com/2022/12/22/why-i-prefer-a-test-contract-to-a-test-plan/)
 - Struggles as a Junior Coder, feelings and tips [Blog Post](https://www.freecodecamp.org/news/how-im-working-to-overcome-my-struggles-as-a-junior-developer-a6ab18ac29b2/)
 - Shamanic Programming [Blog Post](https://www.simplermachines.com/nouveau-shamanic-programming/)
+- Automation as Table Of Stakes Testing [LinkedIn Post](https://www.linkedin.com/posts/john-ferguson-smart_agiletesting-testautomation-bdd-activity-7061281113935093762-mRrs?utm_source=share&utm_medium=member_desktop)
