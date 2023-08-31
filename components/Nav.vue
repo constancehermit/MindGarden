@@ -22,7 +22,7 @@
                     <a href="https://github.com/constancehermit/MindGarden">
                         <font-awesome-icon  :icon="{ prefix: 'fab', iconName: 'github' }" class="fa-lg"/>
                     </a>
-                    <a href="https://twitter.com/constancehermit">
+                    <a href="https://bsky.app/profile/constancehermit.bsky.social">
                         <font-awesome-icon  :icon="{ prefix: 'fab', iconName: 'twitter' }" class="fa-lg"/>
                     </a>
                     <a href="https://blanketfrog.tumblr.com/">
