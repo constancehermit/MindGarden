@@ -1,5 +1,5 @@
 <template>
-    <div class="mx-auto border-2 rounded-lg max-w-max bg-white px-4 pt-4 pb-4">
+    <div class="mx-auto border-2 rounded-lg max-w-max bg-white px-4 pt-4 pb-4 grid place-items-center">
       <img 
         :src="imgSrc()" :alt="alt" 
         class="mt-0 mb-2 sm:max-w-full md:max-w-sm lg:max-w-md"/>

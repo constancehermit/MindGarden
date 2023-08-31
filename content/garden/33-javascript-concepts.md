@@ -20,15 +20,15 @@ A little reminder at we are, at a high level, controlling a bunch of microproces
 How are we going to get from Javascript to machine code? We're going to need an engine to do it for us, of course! 
 
 ### V8 Engine
-Google's JS Engine for Chrome. Released in 2008. Written in C++. Basically: 
+Google's JS Engine for Chrome. Released in 2008. Written in C++. 
 
-<note-illustration-image
+<note-polaroid-image
     src="33-javascript-concepts/v8-architecture-1.png"
     alt="Image shows an architectural diagram of Google's V8 engine. Named components include the Parser, AST, Interpreter, Heap, Profiler, and Compiler"
-    is-center
+    caption="Here's a handy diagram"
     sourcelink="https://blog.bitsrc.io/how-does-javascript-really-work-part-1-7681dd54a36d"
     sourcetext="blog.bitsrc.io">
-</note-illustration-image>
+</note-polaroid-image>
 
 ## The JS Call Stack
 Micro, macro, metaphor, where to begin? Let's start with something foundational. 
