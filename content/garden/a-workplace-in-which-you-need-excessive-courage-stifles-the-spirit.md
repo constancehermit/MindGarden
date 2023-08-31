@@ -4,15 +4,18 @@ tags:
     - software development
     - compassion
 firstPlanted: "2022-09-14T00:00:00.000Z"
-lastTended: "2022-09-16T00:00:00.000Z"
+lastTended: "2022-09-23T00:00:00.000Z"
 growthStage: sprout
 ---
 
 ## Work In Progress
 
-- What I'm trying to say is that the difficult problems we face are not usually about technology, but about people. 
-- "It's always a people problem" (Weinberg)
-- We're people, working together - with all the mess and complexity that that entails - to create something, for other people. 
+Creating software is a human process. It's people working together, with all the mess and complexity that that entails.  
+
+
+Every part of the process involves listening and communicating, and I'm convinved that the trickier problems we grapple with (like building the right thing, or collaborating effectively at scale) hinge on people and communication, rather than technology. To quote Jerry Weinberg: "No matter how it looks at first, it's always a people problem". 
+
+
 - Communicating, collaborating, getting stuck, finding our way again, reflecting, adjusting, succeeding, making mistakes, learning, together. 
 - Making mistakes is integral to learning. Also to creativity, and innovation. 
 - But not just making mistakes, but admitting to them without repercussion. Continually and openly making them, experimenting, and feeling safe in doing it. 
