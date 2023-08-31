@@ -6,12 +6,18 @@
       <img 
       :src="imgSrc()" :alt="alt" 
       class="mt-0 mb-1"/>
-      <span 
+      
+    </div>
+    <span 
         v-if="caption"
         class="text-xs"> 
         {{caption}}  
       </span>
-    </div>
+      <span 
+        v-if="sourcelink"
+        class="text-xs mt-0">
+          (via <a :href="sourcelink">{{sourcetext}}</a>)
+      </span>
   </div>
 </template>
 
@@ -38,6 +44,14 @@ export default {
     isFullWidth: {
       type: Boolean,
       required: false,
+    },
+    sourcetext: {
+      type: String, 
+      required: false
+    },
+    sourcelink: {
+      type: String,
+      required: false
     }
   },
   methods: {
