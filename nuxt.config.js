@@ -32,7 +32,6 @@ export default {
     '@nuxt/typescript-build',
     '@nuxtjs/tailwindcss',
     '@nuxtjs/google-fonts',
-    // '@nuxtjs/fontawesome',
   ],
 
   modules: [
@@ -51,12 +50,6 @@ export default {
       Quicksand: true,
     }
   },
-
-  // fontawesome:  {
-  //   icons: {
-  //     brands : [ 'faTwitter', ],
-  //   }
-  // },
 
   hooks: {
     'content:file:beforeParse': (file) => {
