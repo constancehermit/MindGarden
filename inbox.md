@@ -19,3 +19,5 @@
 - Automation as Table Of Stakes Testing [LinkedIn Post](https://www.linkedin.com/posts/john-ferguson-smart_agiletesting-testautomation-bdd-activity-7061281113935093762-mRrs?utm_source=share&utm_medium=member_desktop)
 - Programming as Gardening [Blog Series](https://www.artima.com/articles/programming-is-gardening-not-engineering)
 - Collaboration Anti-patterns [Article](https://www.infoq.com/articles/bridging-silos-overcoming-collaboration-antipatterns/)
+- Exploring GenAI [Martin Fowler Blog](https://martinfowler.com/articles/exploring-gen-ai.html)
+- What is WebDriver BiDi and will it change the E2E tool landscape? [w3c page](https://w3c.github.io/webdriver-bidi/)

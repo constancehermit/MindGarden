@@ -4,7 +4,7 @@ tags:
     - software development
     - compassion
 firstPlanted: "2022-09-14T00:00:00.000Z"
-lastTended: "2022-09-23T00:00:00.000Z"
+lastTended: "2022-10-05T00:00:00.000Z"
 growthStage: sprout
 ---
 
@@ -12,16 +12,19 @@ growthStage: sprout
 
 Creating software is a human process. It's people working together, with all the mess and complexity that that entails.  
 
-
 Every part of the process involves listening and communicating, and I'm convinved that the trickier problems we grapple with (like building the right thing, or collaborating effectively at scale) hinge on people and communication, rather than technology. To quote Jerry Weinberg: "No matter how it looks at first, it's always a people problem". 
 
+Communicating, collaborating, getting stuck, finding our way again, reflecting, adjusting, succeeding, making mistakes, learning, together. 
 
-- Communicating, collaborating, getting stuck, finding our way again, reflecting, adjusting, succeeding, making mistakes, learning, together. 
-- Making mistakes is integral to learning. Also to creativity, and innovation. 
-- But not just making mistakes, but admitting to them without repercussion. Continually and openly making them, experimenting, and feeling safe in doing it. 
-- In admitting to mistakes we make ourselves vulnerable. Maybe it takes courage to do it, even in a safe space. 
-- How much more difficult this becomes if the environment feels hostile, unsafe, exclusionary. 
-- When we don't feel safe, we don't want to take risks, we don't want to make ourselves vulnerable, to suffer. 
+Making mistakes is integral to the learning process. It's also vital for creativity, and innovation. It's more than just making mistakes though, it's about admitting to them without repercussion. Continually and openly making mistakes, experimenting, and, crucially, feeling safe in doing so.
+
+[TODO]: notes on experiment driven quality culture 
+
+It can take courage to admit to our own mistakes, to be vulnerable, even in a safe space. How much more difficult does this become if the environment feels hostile, unsafe, or exclusionary When we don't feel safe, we don't want to take risks, we don't want to make ourselves vulnerable, to suffer. 
+
+[TODO]: Notes on crafting psychological safety culture
+
+
 - Best results when we work with people we like and respect, who inspire and challenge us
 - Becoming a compassionate human is a life-long project, but in the meantime
 - [Being compassionate is not being nice](https://compassionatecoding.com/blog/2020/9/21/compassion-is-not-about-being-nice)
