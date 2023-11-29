@@ -4,40 +4,44 @@ tags:
     - software development
     - compassion
 firstPlanted: "2022-09-14T00:00:00.000Z"
-lastTended: "2022-10-05T00:00:00.000Z"
+lastTended: "2022-11-29T00:00:00.000Z"
 growthStage: sprout
 ---
 
-## Work In Progress
+## Creating software is a human process.
 
-Creating software is a human process. It's people working together, with all the mess and complexity that that entails.  
+It's people working together, with all the mess and complexity that that entails.  
 
 Every part of the process involves listening and communicating, and I'm convinved that the trickier problems we grapple with (like building the right thing, or collaborating effectively at scale) hinge on people and communication, rather than technology. To quote Jerry Weinberg: "No matter how it looks at first, it's always a people problem". 
 
 Communicating, collaborating, getting stuck, finding our way again, reflecting, adjusting, succeeding, making mistakes, learning, together. 
 
-Making mistakes is integral to the learning process. It's also vital for creativity, and innovation. It's more than just making mistakes though, it's about admitting to them without repercussion. Continually and openly making mistakes, experimenting, and, crucially, feeling safe in doing so.
+## Making mistakes is integral to the learning process. 
 
-[TODO]: notes on experiment driven quality culture 
+ It's also vital for creativity, and innovation. It's more than just making mistakes though, it's about admitting to them without repercussion. Continually and openly making mistakes, experimenting, and, crucially, feeling safe in doing so.
 
-It can take courage to admit to our own mistakes, to be vulnerable, even in a safe space. How much more difficult does this become if the environment feels hostile, unsafe, or exclusionary When we don't feel safe, we don't want to take risks, we don't want to make ourselves vulnerable, to suffer. 
+It can take courage to admit to our own mistakes, to be vulnerable, even in a safe space. How much more difficult does this become if the environment feels hostile, unsafe, or exclusionary?  
 
-[TODO]: Notes on crafting psychological safety culture
-
-
-- Best results when we work with people we like and respect, who inspire and challenge us
-- Becoming a compassionate human is a life-long project, but in the meantime
-- [Being compassionate is not being nice](https://compassionatecoding.com/blog/2020/9/21/compassion-is-not-about-being-nice)
-- Might incl. making people uncomfortable, speaking up against injustice, bringing attention to difficult subjects. 
-- Bad communication can cripple motivation/productivity
+When we don't feel safe, we don't want to make ourselves vulnerable. We stop taking risks, stop sharing our thoughts and ideas, and thereby stifle chances for innovation and growth.
 
 <note-polaroid-image
     src="a-workplace-in-which-you-need-excessive-courage-stifles-the-spirit/psychological-safety-lizandmollie-twitter.jpeg"
     alt="Illustration of a Venn Diagram showing that people share more ideas when they feel belonging"
-    caption="This is where I will add a caption"
+    caption="People share more ideas when they feel belonging."
     sourcelink="https://twitter.com/lizandmollie/status/1383820134154858500?s=20&t=yrGCv21ihByadBlXtU43OA"
     sourcetext="Twitter">
 </note-polaroid-image>
+
+## Psychological safety is a key success factor for software development teams.
+
+We achieve the best results when we work with people we like and respect. People who inspire and challenge us. When we feel encouraged and empowered to reach for something just a little out of reach, 
+repeatedly, with all the stumbling and failing and learning that that kind of ambition entails. 
+
+A safe team is not one in which no conflict occurs, or one in which people hold back their true feelings in order to be 'nice'. [Being compassionate is not about being nice](https://compassionatecoding.com/blog/2020/9/21/compassion-is-not-about-being-nice). Becoming a compassionate human is a life-long project, but in the meantime we can do our best to welcome diverse perspectives (even when they make us uncomfortable) and hold the space for others to express themselves. 
+
+## Cultivating psychological safety 
+
+... to be continued
 
 ---
 References: 
