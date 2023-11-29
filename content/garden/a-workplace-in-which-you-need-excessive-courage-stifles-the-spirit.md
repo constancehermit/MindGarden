@@ -4,7 +4,7 @@ tags:
     - software development
     - compassion
 firstPlanted: "2022-09-14T00:00:00.000Z"
-lastTended: "2022-11-29T00:00:00.000Z"
+lastTended: "2023-11-29T00:00:00.000Z"
 growthStage: sprout
 ---
 
