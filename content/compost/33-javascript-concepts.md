@@ -4,7 +4,7 @@ tags:
     - javascript
     - coding
 firstPlanted: "2023-08-24T00:00:00.000Z"
-lastTended: "2023-08-24T00:00:00.000Z"
+lastTended: "2023-10-05T00:00:00.000Z"
 growthStage: seed
 thumbnail: ""
 ---
