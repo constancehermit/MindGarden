@@ -2,13 +2,12 @@
     <blockquote>
         <span 
             class="">
-            <b>{{ quote }}</b>
+            <b>{{ quote }}</b> 
         </span>
-        <br/>
         <span 
             class="text-sm text-slate-400/75 italic">
-            -- <a 
-                :href="sourcelink" class="text-sky-600/75">
+            <a 
+                :href="sourcelink">
                 {{sourcetext}}
             </a>
         </span>
