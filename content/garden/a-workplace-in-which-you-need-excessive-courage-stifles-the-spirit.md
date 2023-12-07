@@ -33,7 +33,7 @@ It's more than just making mistakes though, it's about admitting to them without
     sourceText="[1]">
 </note-quote>
 
-## When we don't feel safe in a team, learning is inhibited.
+### When we don't feel safe in a team, learning is inhibited.
 
 If our environment feels hostile, unsafe, or exclusionary, our willingness to engage in problem-solving behaviours drops significantly. Here are some examples of learning behaviours that are limited in such an atmosphere:
 
@@ -77,25 +77,6 @@ Psychological safety is a shared belief that the team is safe for intrapersonal 
     sourceText="[5]">
 </note-quote>
 
-## Psychological safety enables better team reflection.
-
-Reflection can be an important part of learning behaviour in teams:
-
-<note-quote
-    quote="When teams engage in reflection, they develop a better sense of what is done, why, and how, and can adjust their behaviors and actions accordingly. However, the process of openly reflecting on and adjusting the teams’ strategies and processes might be perceived as risky, potentially evoking uncertainty and anxiety in team  members. [...] psychological safety can create good conditions for reflection in the team because it removes barriers to learning,  risk-taking, and  openness  during interactions. "
-    sourceLink="#Psychological-Safety-in-Agile-Software-Development-Teams"
-    sourceText="[2]">
-</note-quote>
-
-Interestingly, spending more time on reflection only improves team performance when certain other conditions are met (see these findings from a study <a href="#Do-reflexive-software-development-teams-perform-better">investigating whether reflective software development teams perform better)</a>. Context is important! In fact, some teams and projects may not really benefit from effective learning behaviour at all (for example, those with highly constrained routine tasks and low interdependence). However:
-
-<note-quote 
-    quote="a team with few inherent task constraints and uncertain criteria for success, such as a cross-functional product development team designing a new product [have] ample opportunity for the team's output to benefit from new information and feedback."
-    sourceLink="#Psychological-Safety-and-Learning-Behavior-in-Work-Teams"
-    sourceText="[1]">
-</note-quote>
-
-
 ## Continuous learning and adaptation are critical for organisational success.
 
 Agile software development teams in particular greatly benefit from effective team learning.
@@ -114,7 +95,25 @@ Teams are more willing to engage in exactly these behaviours - speaking up, coll
     sourceText="[1]">
 </note-quote>
 
-## Psychological safety is a key success factor for software development teams.
+### Psychological safety enables better team reflection.
+
+Reflection can be an important part of learning behaviour in teams:
+
+<note-quote
+    quote="When teams engage in reflection, they develop a better sense of what is done, why, and how, and can adjust their behaviors and actions accordingly. However, the process of openly reflecting on and adjusting the teams’ strategies and processes might be perceived as risky, potentially evoking uncertainty and anxiety in team  members. [...] psychological safety can create good conditions for reflection in the team because it removes barriers to learning,  risk-taking, and  openness  during interactions. "
+    sourceLink="#Psychological-Safety-in-Agile-Software-Development-Teams"
+    sourceText="[2]">
+</note-quote>
+
+Interestingly, spending more time on reflection only improves team performance when certain other conditions are met (see these findings from a study <a href="#Do-reflexive-software-development-teams-perform-better">investigating whether reflective software development teams perform better)</a>. Context is important! In fact, some teams and projects may not really benefit from effective learning behaviour at all (for example, those with highly constrained routine tasks and low interdependence). However:
+
+<note-quote 
+    quote="a team with few inherent task constraints and uncertain criteria for success, such as a cross-functional product development team designing a new product [have] ample opportunity for the team's output to benefit from new information and feedback."
+    sourceLink="#Psychological-Safety-and-Learning-Behavior-in-Work-Teams"
+    sourceText="[1]">
+</note-quote>
+
+### Psychological safety is a key success factor for software development teams.
 
 Agile software development is founded on continuous adaptation, and when teams feel psychologically safe, they are more likely to engage in the learning behaviours that enable the team to adapt to change more quickly, thus increasing opportunities to improve team performance.
 

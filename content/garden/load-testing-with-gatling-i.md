@@ -10,7 +10,8 @@ thumbnail: "gatling-i/preview-thumbnail.png"
 
 <note-illustration-image
     src="gatling-i/me.png"
-    alt="tbd">
+    alt="tbd"
+    is-center>
 </note-illustration-image>
 
 ---
