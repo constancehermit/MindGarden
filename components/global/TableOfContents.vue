@@ -1,5 +1,6 @@
 <template>
-    <nav v-if="toc.length!=0" class="pt-2">
+    <nav v-if="toc.length!=0" 
+        class="pt-2 border-b border-slate-300 border-solid">
         <h3 class="text-xl">
             Contents
         </h3>
@@ -24,7 +25,6 @@
                 </li>
             </ul>
         </div>
-        <hr>
     </nav>
 </template>
   
