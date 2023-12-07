@@ -7,11 +7,17 @@
       </div>
       <div class="col-start-2 col-span-10 w-full bg-white px-10 shadow-md pb-12">
         
-        <div>
-          <div class="border-b-2 border-slate-300 border-solid pt-12 pb-4">
-              <h1 class="text-3xl">{{note.title}}</h1>
-              <span class="text-sm text-gray-400"> First Planted: {{ formatDate(note.firstPlanted)}} </span> <br/> 
-              <span class="text-sm text-gray-400"> Last Tended: {{formatDate(note.lastTended)}} </span>
+        <div class="pb-6">
+          <div class="border-b border-slate-300 border-solid pt-12 pb-2 text-center">
+              <h1 class="text-3xl pb-4">{{note.title}}</h1>
+              <div class="grid grid-rows-1 grid-cols-2 pt-4 text-sm text-gray-400">
+                <span class="place-self-start"> 
+                  <b class="text-gray-500">First Planted</b>: {{ formatDate(note.firstPlanted)}} 
+                </span> 
+                <span class="place-self-end"> 
+                  <b class="text-gray-500">Last Tended</b>: {{formatDate(note.lastTended)}} 
+                </span>
+              </div>
           </div>
           <!-- TODO: Add tags back in when there's a tag filter on garden -->
           <!-- <ul v-if="note.tags" class="flex space-x-3 mt-2 pb-2">
