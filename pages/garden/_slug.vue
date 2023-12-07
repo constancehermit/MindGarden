@@ -13,7 +13,8 @@
               <span class="text-sm text-gray-400"> First Planted: {{ formatDate(note.firstPlanted)}} </span> <br/> 
               <span class="text-sm text-gray-400"> Last Tended: {{formatDate(note.lastTended)}} </span>
           </div>
-          <ul v-if="note.tags" class="flex space-x-3 mt-2 pb-2">
+          <!-- TODO: Add tags back in when there's a tag filter on garden -->
+          <!-- <ul v-if="note.tags" class="flex space-x-3 mt-2 pb-2">
             <li
               class="text-gray-400"
               v-for="tag in note.tags"
@@ -21,8 +22,9 @@
             >
               {{ tag }}
             </li>
-          </ul>
+          </ul> -->
         </div>
+        <TableOfContents :toc="note.toc" />
         <nuxt-content class="mt-4 prose max-w-none" :document="note" />
       </div>
     </div>
