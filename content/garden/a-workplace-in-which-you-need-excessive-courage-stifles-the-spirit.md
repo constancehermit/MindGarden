@@ -77,7 +77,7 @@ Psychological safety is a shared belief that the team is safe for intrapersonal 
     sourceText="[5]">
 </note-quote>
 
-## Psychological safety can enable better team reflection.
+## Psychological safety enables better team reflection.
 
 Reflection can be an important part of learning behaviour in teams:
 
@@ -87,30 +87,64 @@ Reflection can be an important part of learning behaviour in teams:
     sourceText="[2]">
 </note-quote>
 
-Interestingly, spending more time on reflection only improves team performance when certain other conditions are met (see these findings from a study <a href="#Do-reflexive-software-development-teams-perform-better">investigating whether reflective software development teams perform better)</a>. Context is important! 
+Interestingly, spending more time on reflection only improves team performance when certain other conditions are met (see these findings from a study <a href="#Do-reflexive-software-development-teams-perform-better">investigating whether reflective software development teams perform better)</a>. Context is important! In fact, some teams and projects may not really benefit from effective learning behaviour at all (for example, those with highly constrained routine tasks and low interdependence). However:
 
+<note-quote 
+    quote="a team with few inherent task constraints and uncertain criteria for success, such as a cross-functional product development team designing a new product [have] ample opportunity for the team's output to benefit from new information and feedback."
+    sourceLink="#Psychological-Safety-and-Learning-Behavior-in-Work-Teams"
+    sourceText="[1]">
+</note-quote>
+
+
+## Continuous learning and adaptation are critical for organisational success.
+
+Agile software development teams in particular greatly benefit from effective team learning.
+
+<note-quote
+    quote="Today’s dynamic and hypercompetitive environments have rendered continuous improvements through learning, change, and innovation imperative to organizational success. These processes develop across multiple levels of the organization as individuals and groups engage in behaviors such as speaking up, collaborating, and experimenting"
+    sourceLink="#Psychological-safety-a-meta-analytic-review-and-extension"
+    sourceText="[7]">
+</note-quote>
+
+Teams are more willing to engage in exactly these behaviours - speaking up, collaborating, and experimenting - when they feel psychologically safe! 
+
+<note-quote
+    quote="[...] the need for learning in work teams is likely to become increasingly critical as organizational change and complexity intensify. Fast-paced work environments require learning behavior to make sense of what is happening as well as to take action. With the promise of more uncertainty, more change, and less job security in future organizations, teams are in a position to provide an important source of psychological safety for individuals at work. The need to ask questions, seek help, and tolerate mistakes in the face of uncertainty-while team members and other colleagues watch-is probably more prevalent in companies today"
+    sourceLink="#Psychological-Safety-and-Learning-Behavior-in-Work-Teams"
+    sourceText="[1]">
+</note-quote>
 
 ## Psychological safety is a key success factor for software development teams.
 
-What do we mean by successful outcomes? 
+Agile software development is founded on continuous adaptation, and when teams feel psychologically safe, they are more likely to engage in the learning behaviours that enable the team to adapt to change more quickly, thus increasing opportunities to improve team performance.
 
-&#10003; Adaption to change  
-&#10003; Greater collective understanding  
-&#10003; Improved performance  
+<note-quote
+    quote="Agile software development is founded on continuous adaptation, which relies on iterative processes with  frequent testing, feedback, and adjustment. To be successful in an agile environment and able to handle uncertainty and deal with changes, teams must engage in close collaborative relationships with frequent and open communication  among team members. Open and honest communication is necessary to keep team members in sync, both with the iterative cycle of product development and with the work and progress of other team members"
+    sourceLink="#Psychological-Safety-in-Agile-Software-Development-Teams"
+    sourceText="[2]">
+</note-quote>
 
-Do we want a team to detect changes in their environment, identify customer requirements, and gain a collective understanding of their domain? Yes? Engagement with learning behaviours is crucial in reaching these outcomes, and engagement drops significantly in a team culture where there is a lack of psychological safety.
+A team with a high degree of psychological safety will be more capable of achieving:
 
+&#10003; Greater collective understanding (e.g. of the domain)  
+&#10003; Faster detection of changes (e.g. in environment and customer requirements)  
+&#10003; Faster adaption to change
 
-
+--- 
 
 ## Cultivating psychological safety 
 
-We're more likely to achieve the best results when:  
+We're more likely to achieve the best results (and have higher job satisfaction) when:  
 
 &#9829; We work with people we **trust** and **respect**, who inspire and challenge us.  
 &#9829; We work within a culture where we feel free and **comfortable to be ourselves**.
 
-... to be continued
+So what can we do to cultivate this environment? 
+
+Personal: emotional maturity, learning orientation  
+Positive Leadership: inclusive and transformational  
+Work design: autonomy and role clarity  
+Supportive work context: peer support, org support, trust
 
 ---
 References: 
@@ -138,4 +172,8 @@ References:
 <span
   id="Do-reflexive-software-development-teams-perform-better">
   [6] [Do Reflexive Software Development Teams Perform Better?](https://aisel.aisnet.org/bise/vol59/iss5/4/) - Kakar & A. Kumar, Business & Information Systems Engineering, vol. 59, 2017
+</span><br/>
+<span
+  id="Psychological-safety-a-meta-analytic-review-and-extension">
+  [7] [Psychological Safety: A Meta‐Analytic Review and Extension](https://digitalcommons.odu.edu/management_fac_pubs/13) - Frazer et al, Management Faculty Publications, 13, 2017
 </span><br/>
