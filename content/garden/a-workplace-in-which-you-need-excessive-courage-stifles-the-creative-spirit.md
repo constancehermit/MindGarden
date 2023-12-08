@@ -35,7 +35,7 @@ It's more than just making mistakes though, it's about admitting to them without
 
 ### When we don't feel safe in a team, learning is inhibited.
 
-If our environment feels hostile, unsafe, or exclusionary, our willingness to engage in problem-solving behaviours drops significantly. Here are some examples of learning behaviours that are limited in such an atmosphere:
+If our environment feels hostile, unsafe, or exclusionary, our willingness to engage drops significantly. Here are some examples of learning behaviours that are limited in such an atmosphere:
 
 &#9999; Seeking feedback  
 &#9999; Sharing information  
@@ -128,6 +128,10 @@ A team with a high degree of psychological safety will be more capable of achiev
 &#10003; Greater collective understanding (e.g. of the domain)  
 &#10003; Faster detection of changes (e.g. in environment and customer requirements)  
 &#10003; Faster adaption to change
+
+## How can we cultivate psychological safety?
+
+See [How to Cultivate an Environment in which Creativity and Innovation Thrive](how-to-cultivate-an-environment-in-which-creativity-and-innovation-thrive).
 
 --- 
 References: 
