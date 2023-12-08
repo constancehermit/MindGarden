@@ -1,5 +1,5 @@
 ---
-title: A Workplace in which you need Excessive Courage Stifles the Spirit
+title: A Workplace in which you need Excessive Courage Stifles the Creative Spirit
 tags: 
     - software development
     - compassion
@@ -130,22 +130,6 @@ A team with a high degree of psychological safety will be more capable of achiev
 &#10003; Faster adaption to change
 
 --- 
-
-## Cultivating psychological safety 
-
-We're more likely to achieve the best results (and have higher job satisfaction) when:  
-
-&#9829; We work with people we **trust** and **respect**, who inspire and challenge us.  
-&#9829; We work within a culture where we feel free and **comfortable to be ourselves**.
-
-So what can we do to cultivate this environment? 
-
-Personal: emotional maturity, learning orientation  
-Positive Leadership: inclusive and transformational  
-Work design: autonomy and role clarity  
-Supportive work context: peer support, org support, trust
-
----
 References: 
 
 <span 
