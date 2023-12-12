@@ -35,7 +35,9 @@ It's more than just making mistakes though, it's about admitting to them without
 
 ### When we don't feel safe in a team, learning is inhibited.
 
-If our environment feels hostile, unsafe, or exclusionary, our willingness to engage drops significantly. Here are some examples of learning behaviours that are limited in such an atmosphere:
+If our environment feels hostile, unsafe, or exclusionary, our willingness to engage drops significantly. In fact, *"the impact that psychological safety has on the learning process is “at the very core of why the construct has maintained the high level of research attention over the years”"* <a href="#Psychological-safety-a-meta-analytic-review-and-extension">[7]</a>
+
+Here are some examples of learning behaviours that are limited in such an atmosphere:
 
 &#9999; Seeking feedback  
 &#9999; Sharing information  
@@ -95,6 +97,14 @@ Teams are more willing to engage in exactly these behaviours - speaking up, coll
     sourceText="[1]">
 </note-quote>
 
+And for companies wishing to stay competitive: 
+
+<note-quote
+    quote="one of the most relevant findings of [Fazer et al's] study is the strong relationship that psychological safety demonstrated with information sharing and learning behavior. [...] fostering perceptions of psychological safety appears to be an important consideration for organizations attempting to maintain competitiveness."
+    sourceLink="#Psychological-safety-a-meta-analytic-review-and-extension"
+    sourceText="[7]">
+</note-quote>
+
 ### Psychological safety enables better team reflection.
 
 Reflection can be an important part of learning behaviour in teams:
@@ -128,6 +138,8 @@ A team with a high degree of psychological safety will be more capable of achiev
 &#10003; Greater collective understanding (e.g. of the domain)  
 &#10003; Faster detection of changes (e.g. in environment and customer requirements)  
 &#10003; Faster adaption to change
+
+
 
 ## How can we cultivate psychological safety?
 

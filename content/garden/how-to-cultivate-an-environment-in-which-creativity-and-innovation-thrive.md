@@ -16,8 +16,9 @@ Because software is *"built by, with, and for human beings"* <a href="#What-does
 
 We know that today's *"dynamic and hypercompetitive environments have rendered continuous improvements through learning, change, and innovation imperative to organizational success."* <a href="#Psychological-safety-a-meta-analytic-review-and-extension">[3]</a> and also that *"people tend to act in ways that inhibit learning when they face the potential for threat or embarrassment"* <a href="#Psychological-Safety-and-Learning-Behavior-in-Work-Teams">[2]</a>. 
 
-Psychological safety has a real impact on team performance.  
-So - How can we help everyone feel safe?
+Information sharing and learning behaviour have a real impact on team performance, so *"psychological safety appears to be an important consideration for organizations attempting to maintain competitiveness."* <a href="#Psychological-safety-a-meta-analytic-review-and-extension">[3]</a>
+
+If we want better outcomes, we should nurture our culture accordingly. 
 
 ## Cultivating psychological safety 
 
@@ -29,9 +30,22 @@ We're more likely to achieve the best results (and have higher job satisfaction!
 &#9829; We work with people we **trust** and **respect**, who inspire and challenge us.  
 
 
+## Work in Progress beyond this point c: 
+
 ### Personal antecedents
 
-Personal: emotional maturity, learning orientation  
+According to meta-analysis research paper: 
+
+Interesting - proactive personalities are less likely than others to perceive a situation as psychologically unsafe. People who are largely unaffected by situational forces and engage consistently anyway! Important to ask what other personalities feel. 
+
+Emotional stability & impact of mental illness on team safety. Again, emotionally stable people are less likely to perceive as unsafe because they're secure. Traumatised people struggle with being anxious/hostile already..
+
+Curious, imaginative, preference for novelty = more likely to feel safe taking risks and being vulnerable in any case.
+
+Learning orientation -> focused on increasing competence and developing new skills = more likely to see making mistakes as necessary and important. THIS ONE in particular can affect things at the team level. 
+
+So if you have these proactive, stable, curious, growth-minded people - they are the ones to start pushing the culture without feeling the negative backlash as much potentially? 
+
 
 ### Work design, context, and leadership
 
