@@ -26,6 +26,16 @@ Since GPT-3, we've been seeing a *"paradigm shift away from smaller models finet
 
 The study also found that *"Using multi-purpose models for discriminative tasks is more energy-intensive compared to task-specific models for these same tasks."*. This was especially the case for question answering, and *"the difference between multi-purpose models and task-specific models is amplified as the length of output gets longer"*. <a href="#Power-hungry-processing-watts-driving-the-cost-of-ai-deployment">[1]</a>
 
+### Image generation in particular requires a lot of power
+
+To give a tangible example: 
+
+<note-quote
+    quote="[...] charging the average smartphone requires 0.012 kWh of energy 4 , which means that the most efficient text generation model uses as much energy as 16% of a full smartphone charge for 1,000 inferences, whereas the least efficient image generation model uses as much energy as 950 smartphone charges (11.49 kWh), or nearly 1 charge per image generation."
+    sourceLink="#Power-hungry-processing-watts-driving-the-cost-of-ai-deployment"
+    sourceText="[1]">
+</note-quote>
+
 ## Measuring the environmental impact of ML is not easy
 
 Due in part to a lack of transparency, it's quite difficult to measure (and regulate) the environmental impact in this particular branch of the industry. Recent work has focused on *"quantifying the operational energy and carbon required to perform the training phase [...] due to the relative ease of measuring"* <a href="#Power-hungry-processing-watts-driving-the-cost-of-ai-deployment">[1]</a> the energy required. Examples include: 
