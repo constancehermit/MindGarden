@@ -6,6 +6,7 @@ tags:
 firstPlanted: "2022-09-14T00:00:00.000Z"
 lastTended: "2023-12-06T00:00:00.000Z"
 growthStage: sprout
+thumbnail: "workplace-requiring-courage-stifles/collab-chat-preview.png"
 ---
 
 ## Creating software is a team activity.
@@ -21,6 +22,14 @@ It's people working together, with all the mess and complexity that that entails
 Every part of the process involves listening and communicating, and I'm convinved that the trickier problems we grapple with (like building the right thing, or collaborating effectively at scale) hinge on people and communication, rather than technology. To quote Jerry Weinberg: "No matter how it looks at first, it's always a people problem". 
 
 Communicating, collaborating, getting stuck, finding our way again, making mistakes, reflecting, adjusting, learning, together. 
+
+<note-illustration-image
+    src="workplace-requiring-courage-stifles/collab-code-chaos-branches.png"
+    alt="Illustration of three people thinking and talking about code together. They're gathered around a device of some kind, and surrounded by swirling pastel circuit-board patterned version control branches. Featuring a trans-pride jumper, lesbian smart-watch, and sparkly outfit-co-ordinated wheelchair! So bored of 'software dev' image search results. Bring on the colourful teams with diverse experiences!"
+    caption="Figure 1: An illustration of three people thinking and talking about code together."
+    is-center
+    is-full-width>
+</note-illustration-image>
 
 ## Making mistakes openly is integral to a team's learning process. 
 
