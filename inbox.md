@@ -21,3 +21,7 @@
 - Collaboration Anti-patterns [Article](https://www.infoq.com/articles/bridging-silos-overcoming-collaboration-antipatterns/)
 - Exploring GenAI [Martin Fowler Blog](https://martinfowler.com/articles/exploring-gen-ai.html)
 - What is WebDriver BiDi and will it change the E2E tool landscape? [w3c page](https://w3c.github.io/webdriver-bidi/)
+- Team Collective Intelligence Research [SagePub Journals](https://journals.sagepub.com/doi/10.1177/8756972820928695)
+- Google Research on what Quality means to Devs [ieee](https://ieeexplore.ieee.org/document/10372494) and also [Jitesh](https://qualityeng.substack.com/p/what-quality-attributes-do-developers)
+- AI and Environmental Impact -> [Anthropocene - should we let AI take our jobs if it generates less carbon?](https://www.anthropocenemagazine.org/2023/12/should-we-let-ai-take-our-jobsif-it-generates-less-carbon)
+- AI and Environmental Impact II -> [Atlantic - AI is taking water from the desert](https://www.theatlantic.com/technology/archive/2024/03/ai-water-climate-microsoft/677602/?gift=iWa_iB9lkw4UuiWbIbrWGSgF7Etgr_BhmgDCCZVB-xA)
