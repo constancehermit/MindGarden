@@ -34,9 +34,13 @@ export default {
     '@nuxtjs/google-fonts',
   ],
 
+  ssr: true,
+  target: 'server',
+  
   modules: [
     '@nuxt/content',
-    'vue-masonry-css'
+    'vue-masonry-css',
+    'cookie-universal-nuxt',
   ],
 
   content: {},

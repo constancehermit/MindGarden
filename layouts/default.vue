@@ -10,11 +10,14 @@
   </div>
 </template>
 
-<style>
-  .bg-light {
-  @apply transition duration-500;
+<script>
+  export default {
+    mounted() {
+      const isDarkModeCookie = this.$cookies.get('isDarkMode');
+      if (isDarkModeCookie !== undefined){
+        this.$store.commit('setDarkMode', isDarkModeCookie);
+        document.documentElement.classList.toggle('dark', isDarkModeCookie);
+      }
+    }
   }
-  .bg-dark {
-    @apply transition duration-500;
-  }
-</style>
+</script>

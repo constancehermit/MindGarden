@@ -48,12 +48,18 @@ export default {
         return this.$store.state.isDarkMode;
       }
     },
+  watch: {
+    isDarkMode(newVal) {
+      console.log('isDarkMode changed:', newVal);
+    }
+  },
     methods: {
         toggleDarkMode() {
             this.$store.commit('toggleDarkMode');
             document.documentElement.classList.toggle(
                 'dark', this.isDarkMode
             );
+            this.$cookies.set('isDarkMode', this.isDarkMode);
         },
     },
 }
