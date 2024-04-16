@@ -5,17 +5,17 @@
       <div class="col-start-2 col-span-10 w-full pb-4">
         <NuxtLink to="/" href="/" class="block text-gray-400 mt-8">← Go Back</NuxtLink>
       </div>
-      <div class="col-start-2 col-span-10 w-full bg-white px-10 shadow-md pb-12">
-        
+      <div class="col-start-2 col-span-10 w-full bg-white dark:bg-darkBgCol px-10 shadow-md pb-12">
+
         <div class="pb-6">
           <div class="border-b border-slate-300 border-solid pt-12 pb-2 text-center">
-              <h1 class="text-3xl pb-4">{{note.title}}</h1>
+              <h1 class="text-3xl pb-4 dark:text-white">{{note.title}}</h1>
               <div class="grid grid-rows-1 grid-cols-2 pt-4 text-sm text-gray-400">
-                <span class="place-self-start"> 
-                  <b class="text-gray-500">First Planted</b>: {{ formatDate(note.firstPlanted)}} 
-                </span> 
-                <span class="place-self-end"> 
-                  <b class="text-gray-500">Last Tended</b>: {{formatDate(note.lastTended)}} 
+                <span class="place-self-start">
+                  <b class="text-gray-500">First Planted</b>: {{ formatDate(note.firstPlanted)}}
+                </span>
+                <span class="place-self-end">
+                  <b class="text-gray-500">Last Tended</b>: {{formatDate(note.lastTended)}}
                 </span>
               </div>
           </div>
@@ -31,7 +31,7 @@
           </ul> -->
         </div>
         <TableOfContents :toc="note.toc" />
-        <nuxt-content class="mt-4 prose max-w-none" :document="note" />
+        <nuxt-content class="mt-4 prose dark:prose-invert max-w-none" :document="note" />
       </div>
     </div>
   </article>

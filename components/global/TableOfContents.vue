@@ -1,7 +1,7 @@
 <template>
-    <nav v-if="toc.length!=0" 
+    <nav v-if="toc.length!=0"
         class="pt-2 border-b border-slate-300 border-solid">
-        <h3 class="text-xl">
+        <h3 class="text-xl dark:text-white">
             Contents
         </h3>
         <div id="toc" class="prose pb-4">
@@ -9,10 +9,10 @@
                 <li
                     v-for="link of toc"
                     :key="link.id"
-                    :class="{ 
-                        'pl-0': link.depth === 1, 
-                        'pl-4': link.depth === 2, 
-                        'pl-8': link.depth === 3 
+                    :class="{
+                        'pl-0': link.depth === 1,
+                        'pl-4': link.depth === 2,
+                        'pl-8': link.depth === 3
                     }"
                 >
                     <span v-if="link.depth === 2"> </span>
@@ -27,7 +27,7 @@
         </div>
     </nav>
 </template>
-  
+
   <script>
   export default {
     props: ['toc'],
