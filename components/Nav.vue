@@ -1,41 +1,62 @@
 <template>
     <nav class="ml-4 h-16 py-4">
         <div class="container flex justify-between items-center mx-auto">
-            <div class="space-x-2">  
-                <span> 
+            <div class="space-x-2 dark:text-white">
+                <span>
                     Study
                     <!-- <NuxtLink to="/study">Study</NuxtLink> -->
                 </span>
-                <span> 
+                <span>
                     <NuxtLink to="/">Garden</NuxtLink>
                 </span>
-                <span> 
+                <span>
                     Library
                     <!-- <NuxtLink to="/library">Library</NuxtLink> -->
                 </span>
-                <span> 
+                <span>
                     Atelier
                     <!-- <NuxtLink to="/atelier">Atelier</NuxtLink> -->
                 </span>
             </div>
             <div class="block w-auto text-base mr-4">
-                    <a href="https://github.com/constancehermit/MindGarden">
-                        <font-awesome-icon  :icon="{ prefix: 'fab', iconName: 'github' }" class="fa-lg"/>
-                    </a>
-                    <a href="https://bsky.app/profile/drawntocode.com">
-                        <font-awesome-icon  :icon="{ prefix: 'fab', iconName: 'twitter' }" class="fa-lg"/>
-                    </a>
-                    <a href="https://blanketfrog.tumblr.com/">
-                        <font-awesome-icon  :icon="{ prefix: 'fab', iconName: 'tumblr' }" class="fa-lg"/>
-                    </a>
+                <button @click="toggleDarkMode" class="mr-1 rounded-md border-2 px-1 border-slate-300 dark:border-slate-500">
+                    <font-awesome-icon
+                        icon="moon"
+                        :class="['fa-lg', 'dark:text-white', {'opacity-50': !isDarkMode}]"/>
+                    <font-awesome-icon
+                        icon="sun"
+                        :class="['fa-lg', 'dark:text-white', {'opacity-50': isDarkMode}]"/>
+                </button>
+                <a href="https://github.com/constancehermit/MindGarden">
+                    <font-awesome-icon  :icon="{ prefix: 'fab', iconName: 'github' }" class="fa-lg dark:text-white"/>
+                </a>
+                <a href="https://bsky.app/profile/drawntocode.com">
+                    <font-awesome-icon  :icon="{ prefix: 'fab', iconName: 'twitter' }" class="fa-lg dark:text-white"/>
+                </a>
+                <a href="https://blanketfrog.tumblr.com/">
+                    <font-awesome-icon  :icon="{ prefix: 'fab', iconName: 'tumblr' }" class="fa-lg dark:text-white"/>
+                </a>
             </div>
         </div>
     </nav>
 </template>
 
 <script>
-    export default {
-    }
+export default {
+    computed: {
+      isDarkMode(){
+        return this.$store.state.isDarkMode;
+      }
+    },
+    methods: {
+        toggleDarkMode() {
+            this.$store.commit('toggleDarkMode');
+            document.documentElement.classList.toggle(
+                'dark', this.isDarkMode
+            );
+        },
+    },
+}
 </script>
 
 <style scoped>

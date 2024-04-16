@@ -57,4 +57,10 @@ export default {
       file.data = file.data.replace(/\]\(((?!http))([^\)]*)\)/g, "](/garden/$2)")
     }
   },
+  
+  vue: {
+    config: {
+      devtools: true,
+    }
+  },
 }

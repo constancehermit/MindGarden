@@ -9,6 +9,9 @@ module.exports = {
         'dark': 'url("assets/texture/stardust.png")',
         'light': 'url("assets/texture/so-white.png")',
       },
+      colors: {
+        darkBgCol:'#3D3C42',
+      },
       keyframes: {
       },
       animation: {
@@ -17,7 +20,7 @@ module.exports = {
         DEFAULT: {
           css: {
             a: {
-              color: '#3182ce', 
+              color: '#3182ce',
               '&:hover': {
                 color: '#2c5282',
               },
@@ -25,7 +28,7 @@ module.exports = {
             }
           }
         }
-      },
+      }
     },
     fontFamily: {
       'sans': ['Quicksand'],
@@ -42,7 +45,7 @@ module.exports = {
   purge: {
     options: {
       safelist: [{
-        pattern: /^h-/, 
+        pattern: /^h-/,
       }],
     },
   }
