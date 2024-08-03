@@ -1,17 +1,20 @@
 ---
 title: Leaders as Gardeners
 tags: 
-    - coding
+    - leadership
+    - gardening-metaphors
 firstPlanted: "2024-08-02T00:00:00.000Z"
 lastTended: "2024-08-03T00:00:00.000Z"
 growthStage: seed
 thumbnail: ""
 ---
 
+Work In Progress! 
+
 <note-quote
-  quote="A highly adaptive organisation needs to shift the leadership model away from the one that controls and makes decisions to a leader who fosters an environment where teams can do their best work."
-  sourceLink="#key-enablers-from-team-of-teams"
-  sourceText="[1]">
+    quote="A highly adaptive organisation needs to shift the leadership model away from the one that controls and makes decisions to a leader who fosters an environment where teams can do their best work."
+    sourceLink="#key-enablers-from-team-of-teams"
+    sourceText="[1]">
 </note-quote>
 
 &#10047; Creating a shared consciousness through extreme transparency  
