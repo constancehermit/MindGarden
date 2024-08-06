@@ -28,3 +28,4 @@
 - Let Teams figure it out themselves unofficial scrum [John Cutler](https://cutle.fish/blog/let-teams-figure-it-out)
 - Sollecito Tech Debt [LinkedIn](https://www.linkedin.com/posts/michelesollecito_i-recently-found-myself-having-to-explain-activity-7217821957105348608-6YpL?utm_source=share&utm_medium=member_desktop)
 - CLEAR prompts [Viv Richards Blog](https://vivrichards.co.uk/ai/unlocking-potential-chatgpt-clear-prompts)
+- Try applying the Phoenix Checklist to testing [Checklist](https://modelthinkers.com/mental-model/the-phoenix-checklist)
