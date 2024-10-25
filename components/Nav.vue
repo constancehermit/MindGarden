@@ -1,6 +1,7 @@
 <template>
     <nav class="ml-4 h-16 py-4">
         <div class="container flex justify-between items-center mx-auto">
+            <!-- Desktop Menu -->
             <div class="space-x-2 dark:text-white">
                 <span>
                     Study
@@ -18,6 +19,8 @@
                     <!-- <NuxtLink to="/atelier">Atelier</NuxtLink> -->
                 </span>
             </div>
+            <!-- Mobile Menu -->
+             
             <div class="block w-auto text-base mr-4">
                 <button @click="toggleDarkMode" class="mr-1 rounded-md border-2 px-1 border-slate-300 dark:border-slate-500">
                     <font-awesome-icon
@@ -31,7 +34,7 @@
                     <font-awesome-icon  :icon="{ prefix: 'fab', iconName: 'github' }" class="fa-lg dark:text-white"/>
                 </a>
                 <a href="https://bsky.app/profile/drawntocode.com">
-                    <font-awesome-icon  :icon="{ prefix: 'fab', iconName: 'twitter' }" class="fa-lg dark:text-white"/>
+                    <font-awesome-icon  :icon="{ prefix: 'fab', iconName: 'bluesky' }" class="fa-lg dark:text-white"/>
                 </a>
                 <a href="https://blanketfrog.tumblr.com/">
                     <font-awesome-icon  :icon="{ prefix: 'fab', iconName: 'tumblr' }" class="fa-lg dark:text-white"/>
