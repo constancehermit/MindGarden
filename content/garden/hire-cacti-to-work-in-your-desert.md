@@ -11,15 +11,53 @@ thumbnail: ""
 
 # Work In Progress 
 
+## Thriving?
+
+"are you thriving at work?" sounds a bit dystopian/forced.  
+TODO: Antiwork Movement, Great Resignation, 'I do not dream of labour'  
+TODO: "Best Self" excellence pressure versus "Favourite Self" satisfaction authenticity    
+(External vs Internal validation)?  
+Workaholic culture, do not mistake work for who you are  
+But number of hours spent per day in this place, worth making it not miserable
+
+You create your own reality, yes, but a peaceful one is easier to achieve under good circumstances.  
+
+### or Wilting? 
+
+&#9676; Difficulty starting the day  
+&#9676; Feeling indifferent   
+&#9676; Procrastination  
+&#9676; Minimal effort  
+&#9676; Stress  
+&#9676; Fatigue  
+&#9676; Irritability  
+&#9676; Overwhelm  
+&#9676; Feeling stuck  
+&#9676; Job searching   
+&#9676; Lack of fulfilment  
+&#9676; Isolation and withdrawal  
+
+Everyone feels irritable, stressed, tired, stuck sometimes, not necessarily due to work.  
+But let's say that you know work is the source.  
+Worst-case: total burnout, health impact.
+
+ 
 ## Are we being set up for success?
 
-First intro of some kind re: not thriving & questioning why  
-What are the signs of not thriving? Maybe less engagement and motivation? be specific 
+Insane society, systematic problems. 
 
 <note-quote
     quote="As much as your upbringing might have taught you to look inward when assigning blame for failure, I suggest it’s worth questioning your environment with a critical eye [...] and ask yourself if you are being set up for success."
     sourceLink="#question-your-environment"
     sourceText="[1]">
+</note-quote>
+
+## What is success?
+
+<note-quote
+    quote=" [...] please don’t settle for just breaking through glass ceilings in a broken corporate system or in a broken political system, where so many leaders are so disconnected from their own wisdom that we are careening from one self-inflicted crisis to another. Change much more than the M to a W at the top of the corporate flowchart. Change it by going to the root of what’s wrong and redefining what we value and what we consider success."
+    sourceLink="#redefining-success"
+    sourceText="[4]">
 </note-quote>
 
 ## What is culture?
@@ -54,13 +92,17 @@ Then the (best) stage: building up the metaphor in more detail
 Lighting and soil requirements!!  
 Emphasis that no plant or region is better/worse (adrenaline explorers on the mountainface? cosy artisans in the cottage garden?) 
 
-## Impact on finding fit 
+## Employee-workplace fit
 
 What can we do to understand (look from different perspectives)
+
+Yes individuals have different needs, but some things are universal - focus here.  
+Place to learn, grow, where they are valued, respected, creative, fun.  
 
 For the individual - how to understand what we need to thrive?  
 For the team/lead - how to evaluate what kind of environment we currently have, what we want, who can grow there?  
 & both - how to find this out at the interview stage?? (hint: safety is crucial)  (ref. Vernon's Qs on 'what happens if they leave')
+
 
  
 
@@ -80,4 +122,9 @@ References:
 <span
   id="cultural-transparency-virtual">
   [3] [Cultural Transparency in a Virtual Work Environment](https://digitalcommons.pepperdine.edu/etd/606/) - Jason Kujanen, 2015
+</span><br/>
+
+<span
+  id="redefining-success">
+  [4] [Redefining Success](https://www.themarginalian.org/2013/05/22/arianna-huffington-on-redefining-success-2013-smith-college-commencement-address/) - Arianna Huffington, 2013
 </span><br/>

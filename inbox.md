@@ -29,3 +29,10 @@
 - Sollecito Tech Debt [LinkedIn](https://www.linkedin.com/posts/michelesollecito_i-recently-found-myself-having-to-explain-activity-7217821957105348608-6YpL?utm_source=share&utm_medium=member_desktop)
 - CLEAR prompts [Viv Richards Blog](https://vivrichards.co.uk/ai/unlocking-potential-chatgpt-clear-prompts)
 - Try applying the Phoenix Checklist to testing [Checklist](https://modelthinkers.com/mental-model/the-phoenix-checklist)
+- AI & env inmpact III -> [EnergyTransition.org](https://energytransition.org/2024/10/how-ai-is-fuelling-the-climate-crisis-not-solving-it/)
+- On not doing gluework -> [noidea.dog](https://www.noidea.dog/glue)
+- Emily Bender on why LLM not good for info access -> [bluesky](https://bsky.app/profile/emilymbender.bsky.social/post/3la3qoa3frr2v)
+- Burnout Doku, specifically about good fit and effect on engagement -> [DW Burnout Doc](https://youtu.be/raVms8w61No?si=tu7yGwxHhbCRXe7w&t=2537) -> high demand, resources to handle are low (not the right info, tools, or unrealistic) and secondly control/autonomy. High workload, low control -> bad. Also, reward - social recognition, appreciation <- if missing, motivation to work hard.. and Fairness. Value conflict? 
+- Learning with LLMs [James Lyndsay](https://www.workroom-productions.com/learning-with-an-llm/)
+- AI Harms [Ayodele](https://aiantihype.beehiiv.com/p/v1-02-ai-hurts-us-but-maybe-it-ll-help-us-someday)
+- Anti-AI on Bsky [Eugene Yan](https://eugeneyan.com/writing/anti-ai/)
