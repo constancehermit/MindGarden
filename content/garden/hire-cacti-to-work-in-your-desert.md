@@ -21,6 +21,7 @@ Workaholic culture, do not mistake work for who you are
 But number of hours spent per day in this place, worth making it not miserable
 
 You create your own reality, yes, but a peaceful one is easier to achieve under good circumstances.  
+(compare with money can't buy happiness)
 
 ### or Wilting? 
 
@@ -40,6 +41,8 @@ You create your own reality, yes, but a peaceful one is easier to achieve under 
 Everyone feels irritable, stressed, tired, stuck sometimes, not necessarily due to work.  
 But let's say that you know work is the source.  
 Worst-case: total burnout, health impact.
+
+Given the impact severity of a bad workplace, it's worth trying to find a good one!
 
  
 ## Are we being set up for success?
