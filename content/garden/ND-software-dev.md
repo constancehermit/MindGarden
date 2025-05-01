@@ -1,10 +1,10 @@
 ---
-title: TBD
+title: Neurodivergent engineers
 tags: 
     - neurodiversity
     - software development
 firstPlanted: "2025-04-16T00:00:00.000Z"
-lastTended: "2022-04-16T00:00:00.000Z"
+lastTended: "2025-04-16T00:00:00.000Z"
 growthStage: seed
 ---
 
@@ -20,25 +20,14 @@ First address their intro about WHAT IS
 (if I can find a paper on this thing)
   Otherwise just talking about how it's not a DISORDER and just a brain
 
-Barriers to inclusion for ASD: 
+Barriers to inclusion
 * Communication difficulties
 * Anxiety-inducing environments
 * Inadequate training
 
-Challenges for ADHD (lead to stress):
-* Task organisation 
-* Time management
-* Maintaining focus 
-
-& Both:
-* Remembering meeting discussions
-* Coping with sudden change
-* Dealing with impulsivity
-
 Recommend inclusive practices:  
 * Flexible work modes
 * Clear communication
-
 
 Really specific examples! 
 Cognitive & Emotional Dysregulation. 
