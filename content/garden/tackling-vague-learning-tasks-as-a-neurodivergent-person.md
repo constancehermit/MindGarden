@@ -24,19 +24,11 @@ Overwhelm is a classic outcome when you have:
 
 There is a difference between working with (let's say) Cypress, and an (almost undocumented) in-house tool. 
 
-Someone building with Cypress has: 
-* A toolbox filled with tools
-* A manual for every step 
-* Online forums where thousands of people share their tips
-* Tutorial blogs, videos, FAQ pages 
+Well-known and popular tools! With that come online forums with thousands of people eager to share their tips and tricks. Bloggers, course creators, stackoverflow answer-ers, tutorials abound! You get example usages, snippets, starter sets, tools and manuals everywhere! 
 
-While I have: 
-* No blueprints or specs
-* Custom tools from a factory no-one documented
-* No information on where the other parts are (or if they exist)
-* A toolbox that either is missing tools, or very cryptically labelled 
-And when I ask where the manual is, "Just figure it out, read the code, other people manage it."  
-*Ok so 'figure it out' isn't quite true, I do get offers of help. But.*
+And I have... well, none of those things. How can I find out what tooling exists? Going to have to crawl through the repo reading code, I guess. Good luck guessing on what they might be named or where in this monolithic system they might be found! Is it missing, cryptically labelled, likely to do what I need? I have to 'just figure it out, read the code (other people manage)'.
+
+*Ok so just 'figure it out' isn't the end, I do get offers of help. But.*
 
 ## Why "ask if you're stuck" is a cognitive burden
 
@@ -93,4 +85,6 @@ When I have the capacity to do them, there are things that help:
 * Taking the time to prepare/formulate very specific requests for feedback and input
 * Seeking informal mentorship / willing allies to ask for pairing or how-do-you-think sessions
 
-Basically, I have to be the detective and guide and student and manager and teacher all at once.  
+Basically, I have to be the detective and guide and student and manager and teacher all at once.
+
+Ideally, of course, I would have a mentor and a well documented and structured learning course for all the skills and tools I need to do my work! But that's unlikely in the extreme, so I must continue to crawl on through this inhospitable desert and draw my own flipping map and manual. Perhaps they'll be of use to any unfortunate travellers who pass this way after I'm gone. 
