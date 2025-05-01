@@ -3,8 +3,8 @@ title: How to Cultivate an Environment in which Creativity and Innovation Thrive
 tags: 
     - software development
     - compassion
-firstPlanted: "2022-12-08T00:00:00.000Z"
-lastTended: "2023-12-08T00:00:00.000Z"
+firstPlanted: "2022-12-08"
+lastTended: "2023-12-08"
 growthStage: seed
 ---
 

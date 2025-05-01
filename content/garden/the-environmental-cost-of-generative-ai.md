@@ -3,8 +3,8 @@ title: The Environmental Cost of Generative AI
 tags: 
     - carbon impact
     - ai
-firstPlanted: "2023-12-11T00:00:00.000Z"
-lastTended: "2023-12-14T00:00:00.000Z"
+firstPlanted: "2023-12-11"
+lastTended: "2023-12-14"
 growthStage: seed
 ---
 

@@ -3,8 +3,8 @@ title: It's Always Possible to be Kind
 tags: 
     - software development
     - compassion
-firstPlanted: "2018-04-28T00:00:00.000Z"
-lastTended: "2018-04-28T00:00:00.000Z"
+firstPlanted: "2018-04-28"
+lastTended: "2018-04-28"
 growthStage: sprout
 thumbnail: "its-always-possible-to-be-kind/marcel-gehlen-99s-tweet.png"
 ---

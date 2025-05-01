@@ -3,8 +3,8 @@ title: A Workplace in which you need Excessive Courage Stifles the Creative Spir
 tags: 
     - software development
     - compassion
-firstPlanted: "2022-09-14T00:00:00.000Z"
-lastTended: "2023-12-06T00:00:00.000Z"
+firstPlanted: "2022-09-14"
+lastTended: "2023-12-06"
 growthStage: sprout
 thumbnail: "workplace-requiring-courage-stifles/collab-chat-preview.png"
 ---

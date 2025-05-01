@@ -2,8 +2,8 @@
 title: Load Testing with Gatling 1
 tags: 
     - performance testing
-firstPlanted: "2021-01-05T00:00:00.000Z"
-lastTended: "2021-01-05T00:00:00.000Z"
+firstPlanted: "2021-01-05"
+lastTended: "2021-01-05"
 growthStage: plant
 thumbnail: "gatling-i/preview-thumbnail.png"
 ---

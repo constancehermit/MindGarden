@@ -3,8 +3,8 @@ title: Hire Cacti to Work in your Desert
 tags: 
     - leadership
     - gardening-metaphors
-firstPlanted: "2024-08-03T00:00:00.000Z"
-lastTended: "2024-08-03T00:00:00.000Z"
+firstPlanted: "2024-08-03"
+lastTended: "2024-08-03"
 growthStage: seed
 thumbnail: ""
 ---

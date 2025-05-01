@@ -2,8 +2,8 @@
 title: Our Thinking may not Happen Only in the Brain
 tags: 
     - cognition
-firstPlanted: "2022-08-17T00:00:00.000Z"
-lastTended: "2022-12-07T00:00:00.000Z"
+firstPlanted: "2022-08-17"
+lastTended: "2022-12-07"
 growthStage: seed
 ---
 
