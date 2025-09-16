@@ -43,6 +43,7 @@ Basically “just ask!” becomes “lose hours of your life focusing on the wro
 
 The burden should be on the instructor to make information accessible.  
 'Ask if you're stuck' shifts the **entire** cognitive burden onto the learner. 
+See also: 'Use common sense'.
 
 ## How this environment triggers executive dysfunction 
 
@@ -68,6 +69,8 @@ Each step contains a whole bunch of other steps that mostly consist of "what doe
 
 It's not just *uncomfortable*, it **disrupts the way my brain is wired to learn**. 
 I also don't tend to feel rising stress until it's overwhelming. I suddenly get angry and shut down without understanding how it was building up! 
+
+TODO: relatedly, why 'just do it how you like' is triggering and clarity is a blessing
 
 ## How do I cope? 
 

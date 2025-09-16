@@ -39,4 +39,4 @@
 - Can AI replace programmers [Hyperskill YT Vid](https://mautic.hyperskill.org/r/91840fa3ba326c9d23caef007)
 - Cherry Tree theory re: plant environment analogy [ADHD Love YT](https://www.youtube.com/watch?v=3_W4YntAO34)
 - Post on what makes a good test automation framework. Understandability, Documentation, etc. 
-- ND Identity Development Arc [Blog](https://neurodivergentinsights.substack.com/p/neurodivergent-identity-arcs?ck_subscriber_id=2290528287&utm_source=convertkit&utm_medium=email&utm_campaign=Neurodivergent%20Notes%3A%20Neurodivergent%20Identity%20Arcs%20-%2017338502&sh_kit=d25b2c3477cdde7c1754820c16dc0737d5f724ad7cee44198ce9cd64e803bd8b)
+- ND Identity Development Arc [Blog](https://neurodivergentinsights.substack.com/p/neurodivergent-identity-arcs?ck_subscriber_id=2290528287&utm_source=convertkit&utm_medium=email&utm_campaign=Neurodivergent%20Notes%3A%20Neurodivergent%20Identity%20Arcs%20-%2017338502&sh_kit=d25b2c3477cdde7c1754820c16dc0737d5f724ad7cee44198ce9cd64e803bd8b) and identity paper [here](https://onlinelibrary.wiley.com/doi/10.1002/aur.3105)
