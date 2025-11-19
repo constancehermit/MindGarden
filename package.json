@@ -14,11 +14,16 @@
     "@astrojs/sitemap": "^3.6.0",
     "@fontsource/delius": "^5.2.7",
     "@fontsource/quicksand": "^5.2.10",
+    "@iconify-json/simple-icons": "^1.2.59",
     "@tailwindcss/typography": "^0.5.19",
     "@tailwindcss/vite": "^4.1.17",
     "astro": "^5.15.9",
     "astro-icon": "^1.1.5",
     "sharp": "^0.34.3",
     "tailwindcss": "^4.1.17"
+  },
+  "devDependencies": {
+    "prettier": "^3.6.2",
+    "prettier-plugin-astro": "^0.14.1"
   }
 }
