@@ -20,8 +20,6 @@ pnpm-debug.log*
 .DS_Store
 
 # JB Settings
-.ai/
-.aiassistant/
 .idea/
 
 # VSCode Settings
