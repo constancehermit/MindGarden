@@ -1,19 +1,34 @@
 import { defineCollection, z } from 'astro:content';
 import { glob } from 'astro/loaders';
 
-const blog = defineCollection({
-	// Load Markdown and MDX files in the `src/content/blog/` directory.
-	loader: glob({ base: './src/content/blog', pattern: '**/*.{md,mdx}' }),
-	// Type-check frontmatter using a schema
-	schema: ({ image }) =>
-		z.object({
-			title: z.string(),
-			description: z.string(),
-			// Transform string to Date object
-			pubDate: z.coerce.date(),
-			updatedDate: z.coerce.date().optional(),
-			heroImage: image().optional(),
-		}),
+const garden = defineCollection({
+  loader: glob({ base: './src/content/garden', pattern: '**/*.{md,mdx}' }),
+  schema: z.object({
+    title: z.string(),
+    tags: z.array(z.string()).optional(),
+    firstPlanted: z.coerce.date(),
+    lastTended: z.coerce.date(),
+    growthStage: z.enum(['seed', 'sprout', 'plant']),
+    thumbnail: z.string().optional(),
+  }),
 });
 
-export const collections = { blog };
+const legal = defineCollection({
+  loader: glob({ base: './src/content/legal', pattern: '**/*.md' }),
+  schema: z.object({
+    title: z.string(),
+    createdAt: z.string().optional(),
+    updatedAt: z.string().optional()
+  }),
+});
+
+const privacy = defineCollection({
+  loader: glob({ base: './src/content/privacy', pattern: '**/*.md' }),
+  schema: z.object({
+    title: z.string(),
+    createdAt: z.string().optional(),
+    updatedAt: z.string().optional()
+  }),
+});
+
+export const collections = { garden, legal, privacy };
