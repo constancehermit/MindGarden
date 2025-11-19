@@ -1,52 +1,52 @@
 ---
-import BaseLayout from '../layouts/baseLayout.astro'
-import { getCollection } from 'astro:content'
+import BaseLayout from "../layouts/baseLayout.astro";
+import { getCollection } from "astro:content";
 
-const notes = (await getCollection('garden')).sort(
+const notes = (await getCollection("garden")).sort(
   (a, b) =>
     new Date(b.data.lastTended).getTime() -
-    new Date(a.data.lastTended).getTime()
-)
+    new Date(a.data.lastTended).getTime(),
+);
 ---
 
 <BaseLayout>
-
-      <div class="font-sans grid grid-cols-3">
-        <h1 class="text-4xl text-center pt-8 pb-6 col-span-3">The Garden</h1>
-        <div class="col-span-3 col-start-1 text-center">
-          <div class="p-4 lg:px-8 md:p-8 mb-0">
-            <span class="prose">
-              <i>In French, “cultiver son jardin intérieur” means to tend to
-                your internal garden—to take care of your mind. The garden
-                metaphor is particularly apt: taking care of your mind involves
-                cultivating your curiosity (the seeds), growing your knowledge
-                (the trees), and producing new thoughts (the fruits).</i>
-              -- <a href="https://nesslabs.com/mind-garden">Anne-Laure Le Cunff</a>
-            </span>
-          </div>
-          <div class="p-4 lg:px-8 md:p-4 mb-8">
-            <span class="prose">
-              My Digital Garden is a collection of imperfect notes, growing
-              slowly over time. <br />
-              You may find half-finished thoughts and ideas just starting to sprout!
-            </span>
-          </div>
-        </div>
-
-        <section class="col-span-3 col-start-1">
-          <!-- Cards/masonry to be added later. For now, list titles linking to detail pages -->
-          <ul class="">
-            {
-              notes.map(({ id, data }) => (
-                <li>
-                  <a class="" href={`/garden/${id}`}>
-                    {data.title}
-                  </a>
-                </li>
-              ))
-            }
-          </ul>
-        </section>
+  <div class="font-sans grid grid-cols-3">
+    <h1 class="text-4xl text-center pt-8 pb-6 col-span-3">The Garden</h1>
+    <div class="col-span-3 col-start-1 text-center">
+      <div class="p-4 lg:px-8 md:p-8 mb-0">
+        <span class="prose">
+          <i
+            >In French, “cultiver son jardin intérieur” means to tend to your
+            internal garden—to take care of your mind. The garden metaphor is
+            particularly apt: taking care of your mind involves cultivating your
+            curiosity (the seeds), growing your knowledge (the trees), and
+            producing new thoughts (the fruits).</i
+          >
+          -- <a href="https://nesslabs.com/mind-garden">Anne-Laure Le Cunff</a>
+        </span>
       </div>
+      <div class="p-4 lg:px-8 md:p-4 mb-8">
+        <span class="prose">
+          My Digital Garden is a collection of imperfect notes, growing slowly
+          over time. <br />
+          You may find half-finished thoughts and ideas just starting to sprout!
+        </span>
+      </div>
+    </div>
 
+    <section class="col-span-3 col-start-1" aria-labelledby="notes-heading">
+      <h2 id="notes-heading" class="sr-only">Garden Notes</h2>
+      <ul class="list-none" role="list">
+        {
+          notes.map(({ id, data }) => (
+            <li>
+              <a class="" href={`/garden/${id}`}>
+                {data.title}
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    </section>
+  </div>
 </BaseLayout>

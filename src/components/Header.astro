@@ -3,39 +3,61 @@ import { Icon } from "astro-icon/components";
 ---
 
 <header>
-  <nav class="h-16 py-4">
+  <nav class="h-16 py-4" aria-label="Main navigation">
     <div class="max-w-7xl mx-auto grid grid-cols-12">
       <div class="col-start-2 col-span-10 flex justify-between items-center">
-        <div class="space-x-2">
-          <span>
+        <ul class="flex space-x-2" role="list">
+          <li>
             <a href="/" class="">Garden</a>
-          </span>
-          <span> Library </span>
-          <span> Studio </span>
-        </div>
-        <div class="flex items-center space-x-2 text-base">
-          <a
-            href="https://github.com/constancehermit/MindGarden"
-            class=""
-            aria-label="GitHub"
-          >
-            <Icon name="simple-icons:github" class="w-5 h-5" />
-          </a>
-          <a
-            href="https://bsky.app/profile/drawntocode.com"
-            class=""
-            aria-label="Bluesky"
-          >
-            <Icon name="simple-icons:bluesky" class="w-5 h-5" />
-          </a>
-          <a
-            href="https://blanketfrog.tumblr.com/"
-            class=""
-            aria-label="Tumblr"
-          >
-            <Icon name="simple-icons:tumblr" class="w-5 h-5" />
-          </a>
-        </div>
+          </li>
+          <li>Library</li>
+          <li>Studio</li>
+        </ul>
+        <ul
+          class="flex items-center space-x-2 text-base"
+          role="list"
+          aria-label="Social media links"
+        >
+          <li>
+            <a
+              href="https://github.com/constancehermit/MindGarden"
+              class=""
+              aria-label="Visit the gardener's GitHub repository"
+            >
+              <Icon
+                name="simple-icons:github"
+                class="w-5 h-5"
+                aria-hidden="true"
+              />
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://bsky.app/profile/drawntocode.com"
+              class=""
+              aria-label="Visit the gardener's Bluesky profile"
+            >
+              <Icon
+                name="simple-icons:bluesky"
+                class="w-5 h-5"
+                aria-hidden="true"
+              />
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://blanketfrog.tumblr.com/"
+              class=""
+              aria-label="Visit the gardener's Tumblr blog"
+            >
+              <Icon
+                name="simple-icons:tumblr"
+                class="w-5 h-5"
+                aria-hidden="true"
+              />
+            </a>
+          </li>
+        </ul>
       </div>
     </div>
   </nav>
