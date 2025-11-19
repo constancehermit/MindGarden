@@ -1,0 +1,34 @@
+---
+import { getCollection, render } from 'astro:content';
+
+const policies = await getCollection('privacy');
+const policy = policies[0];
+
+function formatDate(date?: string) {
+  if (!date) return null;
+  return new Date(date).toLocaleDateString('en-GB', {
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric',
+  });
+}
+
+const rendered = policy ? await render(policy) : null;
+const Content = rendered?.Content;
+---
+
+<article class="px-4">
+  {policy ? (
+    <>
+      <h1 class="text-4xl py-4">{policy.data.title}</h1>
+      {policy.data.updatedAt && (
+        <span>Last updated: {formatDate(policy.data.updatedAt)}</span>
+      )}
+      <div class="mt-4 prose max-w-none">
+        {Content && <Content />}
+      </div>
+    </>
+  ) : (
+    <p>No privacy policy found.</p>
+  )}
+</article>
