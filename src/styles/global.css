@@ -1,2 +1,7 @@
 @import 'tailwindcss';
 @plugin '@tailwindcss/typography';
+
+@theme {
+  --font-sans: Quicksand, ui-sans-serif, system-ui, sans-serif;
+  --font-delius: Delius, cursive;
+}

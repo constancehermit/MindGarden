@@ -279,6 +279,16 @@
   resolved "https://registry.yarnpkg.com/@esbuild/win32-x64/-/win32-x64-0.25.12.tgz#9bdad8176be7811ad148d1f8772359041f46c6c5"
   integrity sha512-alJC0uCZpTFrSL0CCDjcgleBXPnCrEAhTBILpeAp7M/OFgoqtAetfBzX0xM00MUsVVPpVjlPuMbREqnZCXaTnA==
 
+"@fontsource/delius@^5.2.7":
+  version "5.2.7"
+  resolved "https://registry.yarnpkg.com/@fontsource/delius/-/delius-5.2.7.tgz#20168a21e8d32616d836359ebc6a8ca727e573cf"
+  integrity sha512-xSMcJBEceQ7T3JVrN8NB6pc9HgWKQY3LFddfimTAons5PrfUHk2iA2oUSPejL6WLoaMbJNwzCjydWjrg8DSwuA==
+
+"@fontsource/quicksand@^5.2.10":
+  version "5.2.10"
+  resolved "https://registry.yarnpkg.com/@fontsource/quicksand/-/quicksand-5.2.10.tgz#e85fe2993d70db02069cced60c246673e802c363"
+  integrity sha512-rck0ccT6vJF9RnbSW2ON1grq5qFZvjVOGvYIUixATXF8mNh4KglD+8Sn8QpRgKQBSBJF5yOR3SBYBWPg/Y8YbQ==
+
 "@img/colour@^1.0.0":
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/@img/colour/-/colour-1.0.0.tgz#d2fabb223455a793bf3bf9c70de3d28526aa8311"

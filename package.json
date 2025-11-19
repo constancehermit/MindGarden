@@ -12,6 +12,8 @@
     "@astrojs/mdx": "^4.3.11",
     "@astrojs/rss": "^4.0.13",
     "@astrojs/sitemap": "^3.6.0",
+    "@fontsource/delius": "^5.2.7",
+    "@fontsource/quicksand": "^5.2.10",
     "@tailwindcss/typography": "^0.5.19",
     "@tailwindcss/vite": "^4.1.17",
     "astro": "^5.15.9",
