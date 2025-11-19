@@ -1,34 +1,53 @@
 ---
-import { getCollection, render } from 'astro:content';
+import BaseHead from '../components/BaseHead.astro'
+import Footer from '../components/Footer.astro'
+import Header from '../components/Header.astro'
+import { SITE_DESCRIPTION, SITE_TITLE } from '../consts'
+import { getCollection, render } from 'astro:content'
 
-const policies = await getCollection('privacy');
-const policy = policies[0];
+const policies = await getCollection('privacy')
+const policy = policies[0]
 
 function formatDate(date?: string) {
-  if (!date) return null;
+  if (!date) return null
   return new Date(date).toLocaleDateString('en-GB', {
     year: 'numeric',
     month: 'long',
     day: 'numeric',
-  });
+  })
 }
 
-const rendered = policy ? await render(policy) : null;
-const Content = rendered?.Content;
+const rendered = policy ? await render(policy) : null
+const Content = rendered?.Content
 ---
 
-<article class="px-4">
-  {policy ? (
-    <>
-      <h1 class="text-4xl py-4">{policy.data.title}</h1>
-      {policy.data.updatedAt && (
-        <span>Last updated: {formatDate(policy.data.updatedAt)}</span>
-      )}
-      <div class="mt-4 prose max-w-none">
-        {Content && <Content />}
-      </div>
-    </>
-  ) : (
-    <p>No privacy policy found.</p>
-  )}
-</article>
+<!doctype html>
+<html lang="en">
+  <head>
+    <BaseHead
+      title={`Privacy • ${SITE_TITLE}`}
+      description={SITE_DESCRIPTION}
+    />
+  </head>
+  <body>
+    <Header />
+    <main class="container mx-auto px-4 py-8">
+      <article class="px-4">
+        {
+          policy ? (
+            <>
+              <h1 class="text-4xl py-4">{policy.data.title}</h1>
+              {policy.data.updatedAt && (
+                <span>Last updated: {formatDate(policy.data.updatedAt)}</span>
+              )}
+              <div class="mt-4 prose max-w-none">{Content && <Content />}</div>
+            </>
+          ) : (
+            <p>No privacy policy found.</p>
+          )
+        }
+      </article>
+    </main>
+    <Footer />
+  </body>
+</html>
