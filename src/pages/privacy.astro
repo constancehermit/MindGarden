@@ -1,16 +1,16 @@
 ---
-import BaseLayout from '../layouts/baseLayout.astro'
-import { getCollection, render } from 'astro:content'
+import BaseLayout from "../layouts/baseLayout.astro";
+import { getCollection, render } from "astro:content";
 
-const policies = await getCollection('privacy')
+const policies = await getCollection("privacy");
 
 function formatDate(date?: string) {
-  if (!date) return null
-  return new Date(date).toLocaleDateString('en-GB', {
-    year: 'numeric',
-    month: 'long',
-    day: 'numeric',
-  })
+  if (!date) return null;
+  return new Date(date).toLocaleDateString("en-GB", {
+    year: "numeric",
+    month: "long",
+    day: "numeric",
+  });
 }
 ---
 
@@ -22,19 +22,19 @@ function formatDate(date?: string) {
       {
         await Promise.all(
           policies.map(async (p) => {
-            const { Content } = await render(p)
+            const { Content } = await render(p);
             return (
               <>
                 <h1 class="text-4xl py-4">{p.data.title}</h1>
                 {p.data.updatedAt && (
                   <span>Last updated: {formatDate(p.data.updatedAt)}</span>
                 )}
-                <div class="mt-4 prose max-w-none">
+                <div class="mt-4 prose dark:prose-invert max-w-none">
                   <Content />
                 </div>
               </>
-            )
-          })
+            );
+          }),
         )
       }
     </article>

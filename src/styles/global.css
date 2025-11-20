@@ -1,11 +1,12 @@
 @import 'tailwindcss';
 @plugin '@tailwindcss/typography';
 
+@custom-variant dark (&:where(.dark, .dark *));
+
 @theme {
   --font-sans: Quicksand, ui-sans-serif, system-ui, sans-serif;
   --font-delius: Delius, cursive;
 
-  --darkMode: class;
   --background-image-dark: url('/src/assets/texture/stardust.png');
   --background-image-light: url('/src/assets/texture/so-white.png');
 }
@@ -18,11 +19,22 @@
   .prose a:hover {
     color: #2c5282;
   }
+  /* DARK */
   .bg-theme-img {
     background-image: var(--background-image-light);
   }
   .dark .bg-theme-img {
     background-image: var(--background-image-dark);
+  }
+  .dark div,
+  .dark span,
+  .dark h1,
+  .dark h2,
+  .dark h3,
+  .dark h4,
+  .dark h5,
+  .dark h6 {
+    color: white;
   }
 }
 

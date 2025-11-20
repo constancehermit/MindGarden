@@ -25,6 +25,15 @@ const { title, description } = Astro.props;
 />
 <meta name="generator" content={Astro.generator} />
 
+<script is:inline>
+  const theme = localStorage.getItem("theme");
+  const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+
+  if (theme === "dark" || (!theme && prefersDark)) {
+    document.documentElement.classList.add("dark");
+  }
+</script>
+
 <!-- Canonical URL -->
 <link rel="canonical" href={canonicalURL} />
 
