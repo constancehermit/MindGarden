@@ -1,6 +1,7 @@
 ---
 import BaseLayout from "../../layouts/baseLayout.astro";
 import { getCollection, getEntry, render } from "astro:content";
+import NoteQuote from "../../components/note-content/NoteQuote.astro";
 
 export async function getStaticPaths() {
   const notes = await getCollection("garden");
@@ -25,6 +26,11 @@ const formatDate = (date: Date) => {
     month: "long",
     day: "numeric",
   });
+};
+
+// Provide components globally to all MDX files
+const components = {
+  NoteQuote,
 };
 
 // TODO: related notes functionality (tag-based)
@@ -75,8 +81,8 @@ const formatDate = (date: Date) => {
 
         {/* TODO: Add TableOfContents component */}
 
-        <div class="mt-4 prose max-w-none">
-          <Content />
+        <div class="mt-4 prose max-w-none dark:prose-invert">
+          <Content components={components} />
         </div>
 
         {/* TODO: Add RelatedNotes component here */}
