@@ -1,4 +1,6 @@
 ---
+import GrowthStageIcon from "./GrowthStageIcon.astro";
+
 interface Props {
   slug: string;
   title: string;
@@ -16,13 +18,10 @@ const { slug, title, growthStage, thumbnail } = Astro.props;
   <article
     class="bg-white dark:bg-gray-800 shadow-md rounded-md p-6 h-full text-center"
   >
-    <!-- Growth stage placeholder - we'll add this later -->
     {
       growthStage && (
         <div class="grid place-items-center mb-3">
-          <span class="text-sm text-gray-500 dark:text-gray-400">
-            {growthStage}
-          </span>
+          <GrowthStageIcon growthStage={growthStage} />
         </div>
       )
     }

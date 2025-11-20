@@ -7,8 +7,8 @@
   --font-sans: Quicksand, ui-sans-serif, system-ui, sans-serif;
   --font-delius: Delius, cursive;
 
-  --background-image-dark: url('/src/assets/texture/stardust.png');
-  --background-image-light: url('/src/assets/texture/so-white.png');
+  --background-image-dark: url('/src/assets/textures/stardust.png');
+  --background-image-light: url('/src/assets/textures/so-white.png');
 }
 
 @layer utilities {
