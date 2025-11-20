@@ -4,7 +4,8 @@
 
 ---
 
-Build with [NuxtJS](https://nuxtjs.org/) & [TailwindCSS](https://tailwindcss.com/).  
+Build with [Astro](https://astro.build/) & [TailwindCSS](https://tailwindcss.com/).  
+Uses [theme-toggles](https://github.com/alfiejones/theme-toggles).
 Deployed via [Netlify](https://www.netlify.com/).  
 
 Visit [drawntocode.com](https://drawntocode.com) c: 
