@@ -302,6 +302,13 @@
   resolved "https://registry.yarnpkg.com/@fontsource/quicksand/-/quicksand-5.2.10.tgz#e85fe2993d70db02069cced60c246673e802c363"
   integrity sha512-rck0ccT6vJF9RnbSW2ON1grq5qFZvjVOGvYIUixATXF8mNh4KglD+8Sn8QpRgKQBSBJF5yOR3SBYBWPg/Y8YbQ==
 
+"@iconify-json/mdi@^1.2.3":
+  version "1.2.3"
+  resolved "https://registry.yarnpkg.com/@iconify-json/mdi/-/mdi-1.2.3.tgz#5e4ee9d8c8aaad04381c8cc6c6edbe3327f031b5"
+  integrity sha512-O3cLwbDOK7NNDf2ihaQOH5F9JglnulNDFV7WprU2dSoZu3h3cWH//h74uQAB87brHmvFVxIOkuBX2sZSzYhScg==
+  dependencies:
+    "@iconify/types" "*"
+
 "@iconify-json/simple-icons@^1.2.59":
   version "1.2.59"
   resolved "https://registry.yarnpkg.com/@iconify-json/simple-icons/-/simple-icons-1.2.59.tgz#19b6a5eea538b74815d777839506f77f7455fc57"
@@ -864,6 +871,11 @@
     "@tailwindcss/node" "4.1.17"
     "@tailwindcss/oxide" "4.1.17"
     tailwindcss "4.1.17"
+
+"@tailwindplus/elements@^1.0.19":
+  version "1.0.19"
+  resolved "https://registry.yarnpkg.com/@tailwindplus/elements/-/elements-1.0.19.tgz#1e7360ef0751b0f2fa0ded6381e276afdfad7785"
+  integrity sha512-JMtqgYmZYNXO3VWu+SFxt2DChD/FL2A42jEhkUC9maQpFjfi0rhLm8lBFFo39Xbe9dwH0rT3fOi6DhSNFFnuzA==
 
 "@trysound/sax@0.2.0":
   version "0.2.0"

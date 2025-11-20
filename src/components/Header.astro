@@ -1,27 +1,27 @@
 ---
 import ThemeToggle from "./ThemeToggle.astro";
+import { Icon } from "astro-icon/components";
 ---
 
 <header>
-  <nav class="h-16 py-4" aria-label="Main navigation">
-    <div class="max-w-7xl mx-auto grid grid-cols-12">
-      <div class="col-start-2 col-span-10 grid grid-cols-12 items-center">
-        <ul
-          class="col-span-5 flex space-x-2 text-black dark:text-white"
-          role="list"
+  <nav class="h-16 py-4">
+    <div class="max-w-7xl mx-auto grid grid-cols-3 items-center px-4">
+      <div class="flex justify-start">
+        <button
+          command="show-modal"
+          commandfor="drawer"
+          class="dark:text-white cursor-pointer justify-self-start"
+          aria-label="Open Sidebar"
+          title="Explore"
         >
-          <li>
-            <a href="/">Garden</a>
-          </li>
-          <li>Library</li>
-          <li>Studio</li>
-        </ul>
-        <div class="col-span-2 flex justify-center">
-          <ThemeToggle />
-        </div>
-        <div class="col-span-5">
-          {/* right side reserved or add items later */}
-        </div>
+          <Icon name="mdi:routes" class="text-4xl" />
+        </button>
+      </div>
+      <div class="flex justify-center">
+        <ThemeToggle />
+      </div>
+      <div class="flex justify-end">
+        <!-- TODO? -->
       </div>
     </div>
   </nav>
