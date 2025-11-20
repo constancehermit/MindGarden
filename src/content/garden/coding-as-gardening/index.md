@@ -6,7 +6,6 @@ tags:
 firstPlanted: "2024-08-02"
 lastTended: "2024-08-03"
 growthStage: seed
-thumbnail: ""
 ---
 
 <note-quote

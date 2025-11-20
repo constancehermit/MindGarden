@@ -6,7 +6,6 @@ tags:
 firstPlanted: "2022-09-14"
 lastTended: "2023-12-06"
 growthStage: sprout
-thumbnail: "workplace-requiring-courage-stifles/collab-chat-preview.png"
 ---
 
 ## Creating software is a team activity.

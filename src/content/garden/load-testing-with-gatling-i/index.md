@@ -5,7 +5,6 @@ tags:
 firstPlanted: "2021-01-05"
 lastTended: "2021-01-05"
 growthStage: plant
-thumbnail: "gatling-i/preview-thumbnail.png"
 ---
 
 <note-illustration-image

@@ -6,7 +6,6 @@ tags:
 firstPlanted: "2024-08-03"
 lastTended: "2024-08-03"
 growthStage: seed
-thumbnail: ""
 ---
 
 # Work In Progress 
