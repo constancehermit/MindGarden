@@ -1,5 +1,6 @@
 ---
 import { Icon } from "astro-icon/components";
+import ThemeToggle from "./ThemeToggle.astro";
 ---
 
 <header>
@@ -13,51 +14,54 @@ import { Icon } from "astro-icon/components";
           <li>Library</li>
           <li>Studio</li>
         </ul>
-        <ul
-          class="flex items-center space-x-2 text-base"
-          role="list"
-          aria-label="Social media links"
-        >
-          <li>
-            <a
-              href="https://github.com/constancehermit/MindGarden"
-              class=""
-              aria-label="Visit the gardener's GitHub repository"
-            >
-              <Icon
-                name="simple-icons:github"
-                class="w-5 h-5"
-                aria-hidden="true"
-              />
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://bsky.app/profile/drawntocode.com"
-              class=""
-              aria-label="Visit the gardener's Bluesky profile"
-            >
-              <Icon
-                name="simple-icons:bluesky"
-                class="w-5 h-5"
-                aria-hidden="true"
-              />
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://blanketfrog.tumblr.com/"
-              class=""
-              aria-label="Visit the gardener's Tumblr blog"
-            >
-              <Icon
-                name="simple-icons:tumblr"
-                class="w-5 h-5"
-                aria-hidden="true"
-              />
-            </a>
-          </li>
-        </ul>
+        <div class="flex items-center gap-2">
+          <ThemeToggle />
+          <ul
+            class="flex items-center space-x-2 text-base"
+            role="list"
+            aria-label="Social media links"
+          >
+            <li>
+              <a
+                href="https://github.com/constancehermit/MindGarden"
+                class=""
+                aria-label="Visit the gardener's GitHub repository"
+              >
+                <Icon
+                  name="simple-icons:github"
+                  class="w-5 h-5"
+                  aria-hidden="true"
+                />
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://bsky.app/profile/drawntocode.com"
+                class=""
+                aria-label="Visit the gardener's Bluesky profile"
+              >
+                <Icon
+                  name="simple-icons:bluesky"
+                  class="w-5 h-5"
+                  aria-hidden="true"
+                />
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://blanketfrog.tumblr.com/"
+                class=""
+                aria-label="Visit the gardener's Tumblr blog"
+              >
+                <Icon
+                  name="simple-icons:tumblr"
+                  class="w-5 h-5"
+                  aria-hidden="true"
+                />
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   </nav>

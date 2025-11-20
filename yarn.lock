@@ -3703,6 +3703,11 @@ tar@^6.2.1:
     mkdirp "^1.0.3"
     yallist "^4.0.0"
 
+theme-toggles@^4.10.1:
+  version "4.10.1"
+  resolved "https://registry.yarnpkg.com/theme-toggles/-/theme-toggles-4.10.1.tgz#517a102e3052ceb86a7e98a0c8e82adee01c8c7a"
+  integrity sha512-PCvj0cB+3JOv8gUXjvp+/7Nu7hSLAYCwmxsAjltIhUUpF6NPn3jDMo64KCu2S2HQe+lGAEM01f2hDzqlPg3bsQ==
+
 tiny-inflate@^1.0.0, tiny-inflate@^1.0.3:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/tiny-inflate/-/tiny-inflate-1.0.3.tgz#122715494913a1805166aaf7c93467933eea26c4"
