@@ -3,6 +3,7 @@ import "theme-toggles/css/within.min.css";
 ---
 
 <button
+  id="theme-toggle"
   class="theme-toggle text-2xl"
   type="button"
   title="Toggle theme"
@@ -36,27 +37,40 @@ import "theme-toggles/css/within.min.css";
   </svg>
 </button>
 
+<style>
+  #theme-toggle {
+    --theme-toggle__within--duration: 1.5s;
+  }
+</style>
+
 <script>
-  const themeToggle = document.querySelector(".theme-toggle");
+  function toggleTheme() {
+    const html = document.documentElement;
+    const button = document.getElementById("theme-toggle");
+    const isDark = html.classList.contains("dark");
 
-  if (themeToggle) {
-    themeToggle.addEventListener("click", () => {
-      // Toggle the CSS class - this triggers the animation
-      themeToggle.classList.toggle("theme-toggle--toggled");
+    html.classList.toggle("dark", !isDark);
+    button?.classList.toggle("theme-toggle--toggled", !isDark);
+    localStorage.setItem("theme", !isDark ? "dark" : "light");
+  }
 
-      // Optional: Handle actual theme switching
-      const html = document.documentElement;
-      const currentTheme =
-        html.getAttribute("data-theme") === "dark" ? "light" : "dark";
-      html.setAttribute("data-theme", currentTheme);
-      localStorage.setItem("theme", currentTheme);
-    });
+  function initButtonState() {
+    const button = document.getElementById("theme-toggle");
+    const isDark = document.documentElement.classList.contains("dark");
 
-    // Initialize from localStorage
-    const savedTheme = localStorage.getItem("theme") || "light";
-    document.documentElement.setAttribute("data-theme", savedTheme);
-    if (savedTheme === "dark") {
-      themeToggle.classList.add("theme-toggle--toggled");
+    if (isDark) {
+      button?.classList.add("theme-toggle--toggled");
     }
   }
+
+  document
+    .getElementById("theme-toggle")
+    ?.addEventListener("click", toggleTheme);
+  initButtonState();
+  document.addEventListener("astro:after-swap", () => {
+    document
+      .getElementById("theme-toggle")
+      ?.addEventListener("click", toggleTheme);
+    initButtonState();
+  });
 </script>

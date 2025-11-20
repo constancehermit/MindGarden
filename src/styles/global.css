@@ -5,17 +5,12 @@
   --font-sans: Quicksand, ui-sans-serif, system-ui, sans-serif;
   --font-delius: Delius, cursive;
 
-  --background-image-light: url("assets/texture/so-white.png");
-  --background-image-dark: url("assets/texture/stardust.png");
+  --darkMode: class;
+  --background-image-dark: url('/src/assets/texture/stardust.png');
+  --background-image-light: url('/src/assets/texture/so-white.png');
 }
 
 @layer utilities {
-  .bg-light {
-    background-image: var(--background-image-light);
-  }
-  .bg-dark {
-    background-image: var(--background-image-dark);
-  }
   .prose a {
     color: #3182ce;
     text-decoration: none;
@@ -23,8 +18,15 @@
   .prose a:hover {
     color: #2c5282;
   }
+  .bg-theme-img {
+    background-image: var(--background-image-light);
+  }
+  .dark .bg-theme-img {
+    background-image: var(--background-image-dark);
+  }
 }
 
+/* Accessibility */
 .sr-only {
   position: absolute;
   width: 1px;
