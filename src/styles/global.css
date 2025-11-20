@@ -4,6 +4,25 @@
 @theme {
   --font-sans: Quicksand, ui-sans-serif, system-ui, sans-serif;
   --font-delius: Delius, cursive;
+
+  --background-image-light: url("assets/texture/so-white.png");
+  --background-image-dark: url("assets/texture/stardust.png");
+}
+
+@layer utilities {
+  .bg-light {
+    background-image: var(--background-image-light);
+  }
+  .bg-dark {
+    background-image: var(--background-image-dark);
+  }
+  .prose a {
+    color: #3182ce;
+    text-decoration: none;
+  }
+  .prose a:hover {
+    color: #2c5282;
+  }
 }
 
 .sr-only {
