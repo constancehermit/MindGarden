@@ -1,16 +1,5 @@
 # Cheatsheet
 
-## Shortcuts
-- `alt+c` change todo item state
-- `cmd+b` bold `cmd+i` italic
-- `alt+shift+f` format table
-- Paste links onto text!
-- `cmd+shift+f` search repo
-- `cmd+shift+e` show explorer
-- `cmd+alt+v` paste image, adding to attachments
-- `cmd+shift+p` commands
-- `cmd+,` settings
-
 ## Meta
 
 ### Notes
