@@ -40,8 +40,8 @@ const resolvedImage = imagePath ? await images[imagePath]() : null;
 <div class={isCenter ? "grid place-items-center" : ""}>
   <div
     class:list={[
-      "sm:max-w-full md:max-w-sm",
-      isFullWidth ? "lg:max-w-full" : "lg:max-w-lg",
+      "flex flex-col items-center",
+      isFullWidth ? "w-full" : "sm:w-full md:max-w-sm lg:max-w-lg",
     ]}
   >
     {
@@ -57,13 +57,13 @@ const resolvedImage = imagePath ? await images[imagePath]() : null;
         <img src={src} alt={alt} class="mt-0 mb-1" />
       )
     }
+    {caption && <span class="text-xs text-center">{caption}</span>}
+    {
+      sourcelink && sourcetext && (
+        <span class="text-xs mt-0 text-center">
+          (via <a href={sourcelink}>{sourcetext}</a>)
+        </span>
+      )
+    }
   </div>
-  {caption && <span class="text-xs">{caption}</span>}
-  {
-    sourcelink && sourcetext && (
-      <span class="text-xs mt-0">
-        (via <a href={sourcelink}>{sourcetext}</a>)
-      </span>
-    )
-  }
 </div>

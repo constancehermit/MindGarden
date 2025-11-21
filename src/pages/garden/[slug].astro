@@ -5,6 +5,8 @@ import NoteQuote from "../../components/note-content/NoteQuote.astro";
 import NoteIllustration from "../../components/note-content/NoteIllustration.astro";
 import NotePolaroid from "../../components/note-content/NotePolaroid.astro";
 import NoteTweet from "../../components/note-content/NoteTweet.astro";
+import NoteTOC from "../../components/note-content/NoteTOC.astro";
+import Spacer from "../../components/shared/Spacer.astro";
 
 export async function getStaticPaths() {
   const notes = await getCollection("garden");
@@ -22,6 +24,7 @@ if (!note) {
 }
 
 const { Content } = await render(note);
+const { headings } = await render(note);
 
 const formatDate = (date: Date) => {
   return new Date(date).toLocaleDateString("en-GB", {
@@ -37,6 +40,8 @@ const components = {
   NoteIllustration,
   NotePolaroid,
   NoteTweet,
+  NoteTOC,
+  Spacer,
 };
 
 // TODO: related notes functionality (tag-based)
@@ -85,8 +90,7 @@ const components = {
           </div>
         </header>
 
-        {/* TODO: Add TableOfContents component */}
-
+        <NoteTOC headings={headings} />
         <div class="mt-4 prose max-w-none dark:prose-invert">
           <Content components={components} />
         </div>

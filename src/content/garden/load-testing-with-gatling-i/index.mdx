@@ -57,13 +57,13 @@ CI/CD: Continuous Integration / Continuous Deployment
 DSL: Domain Specific Language">
 </definitions>
 
-<spacer height="4"></spacer>
+<Spacer height={4}/>
 
 ### Let's assume you have buy-in
 
 Let’s skip straight to adoption. Our team see the value in automated performance testing. Whether or not we're doing CI/CD, we'd all like to know if a build significantly impacts performance, and because we're advocating for everyone to join in with writing tests (and we want it to be easy to do so) we go with Gatling. A free open-source tool allowing us to write tests as code, in a shared repository, with experimental branches and reviewing possibilities? Yes Please.
 
-<spacer height="6"></spacer>
+<Spacer height={6}/>
 
 <NoteIllustration
     src="gatling-i/dont-stress-the-server.png"
@@ -72,7 +72,7 @@ Let’s skip straight to adoption. Our team see the value in automated performan
     isCenter
 />
 
-<spacer height="6"></spacer>
+<Spacer height={6}/>
 
 <NoteIllustration
     src="gatling-i/dont-stress-the-server-2.png"
@@ -81,7 +81,7 @@ Let’s skip straight to adoption. Our team see the value in automated performan
     isCenter
 />
 
-<spacer height="10"></spacer>
+<Spacer height={10}/>
 
 ---
 ## Writing the test is not the hard part
@@ -98,7 +98,7 @@ On a grander scale, I think it's important to remember that technology is a tool
     isCenter
 />
 
-<spacer height="4"></spacer>
+<Spacer height={4}/>
 
 The thing is, I don't think that using the tool, or writing the test, is the tricky bit.
 Knowing what on earth you're doing in the context of the whole, what to test, what's representational, meaningful, and useful? That's the hard part.
@@ -135,7 +135,7 @@ If it's running on a web server, accessible over an internet connection, then it
     isFullWidth
 />
 
-<spacer height="4"></spacer>
+<Spacer height={4}/>
 
 Web Apps have a Front-end (or Client-side) and a Back-end (or Server-side).
 
@@ -152,7 +152,7 @@ This might be comprised of several components, services, databases, external dat
 
 TODO: Slideshow goes here
 
-<spacer height="6"></spacer>
+<Spacer height={6}/>
 
 ---
 ## Response Time is our Key Metric
@@ -166,7 +166,7 @@ In the same way that a high temperature is a symptom of illness in a human, a lo
 
 That's not to say that response time is the **only** metric, or aspect of the response, that we care about. Just that it's pretty important.
 
-<spacer height="6"></spacer>
+<Spacer height={6}/>
 
 <NoteIllustration
     src="gatling-i/responsetime.png"
@@ -182,7 +182,7 @@ Alright, so interacting with a Web App is a bit like ordering at a food place. H
 
 TODO: Slideshow goes here
 
-<spacer height="4"></spacer>
+<Spacer height={4}/>
 
 ### Virtual Users
 
@@ -199,7 +199,7 @@ Those scripts are written in Gatling's DSL, and might include steps like: go to 
 
 There are limited paths a user can take through our app, so instead of trying to write 100 unique scripts, we can just pick a few common scenarios, and instead of having one user executing one scenario, we can have a population of X users executing scenario A and a population of Y users executing scenario B (and so on).
 
-<spacer height="4"></spacer>
+<Spacer height={4}/>
 
 <NoteIllustration
     src="gatling-i/bombardment.png"
