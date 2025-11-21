@@ -1,0 +1,28 @@
+---
+import ThemeToggle from "../ui/ThemeToggle.astro";
+import { Icon } from "astro-icon/components";
+---
+
+<header>
+  <nav class="h-16 py-4">
+    <div class="max-w-7xl mx-auto grid grid-cols-3 items-center px-4">
+      <div class="flex justify-start">
+        <button
+          command="show-modal"
+          commandfor="drawer"
+          class="dark:text-white cursor-pointer justify-self-start"
+          aria-label="Open Sidebar"
+          title="Explore"
+        >
+          <Icon name="mdi:routes" class="text-4xl" />
+        </button>
+      </div>
+      <div class="flex justify-center">
+        <ThemeToggle />
+      </div>
+      <div class="flex justify-end">
+        <!-- TODO? -->
+      </div>
+    </div>
+  </nav>
+</header>

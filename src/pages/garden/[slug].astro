@@ -1,0 +1,106 @@
+---
+import BaseLayout from "../../layouts/baseLayout.astro";
+import { getCollection, getEntry, render } from "astro:content";
+import NoteQuote from "../../components/note-content/NoteQuote.astro";
+import NoteIllustration from "../../components/note-content/NoteIllustration.astro";
+import NotePolaroid from "../../components/note-content/NotePolaroid.astro";
+import NoteTweet from "../../components/note-content/NoteTweet.astro";
+import NoteTOC from "../../components/note-content/NoteTOC.astro";
+import NoteDefinition from "../../components/note-content/NoteDefinition.astro";
+import Spacer from "../../components/shared/Spacer.astro";
+
+export async function getStaticPaths() {
+  const notes = await getCollection("garden");
+  return notes.map((note) => ({
+    params: { slug: note.id },
+  }));
+}
+
+const { slug } = Astro.params;
+const note = await getEntry("garden", slug!);
+
+if (!note) {
+  // TODO: 404 page
+  return Astro.redirect("/404");
+}
+
+const { Content } = await render(note);
+const { headings } = await render(note);
+
+const formatDate = (date: Date) => {
+  return new Date(date).toLocaleDateString("en-GB", {
+    year: "numeric",
+    month: "long",
+    day: "numeric",
+  });
+};
+
+// Provide components globally to all MDX files
+const components = {
+  NoteQuote,
+  NoteIllustration,
+  NotePolaroid,
+  NoteTweet,
+  NoteTOC,
+  NoteDefinition,
+  Spacer,
+};
+
+// TODO: related notes functionality (tag-based)
+// TODO: bi-directional links
+// TODO: series navigation (prev/next)
+---
+
+<BaseLayout>
+  <article class="grid grid-cols-12 pb-4">
+    <div class="w-full col-start-1 col-span-12 grid grid-cols-12">
+      <div class="col-start-2 col-span-10 w-full pb-4">
+        <nav aria-label="Breadcrumb">
+          <a href="/" class="block text-gray-400 mt-8">← Go Back</a>
+        </nav>
+      </div>
+
+      <div
+        class="col-start-2 col-span-10 w-full dark:bg-[#3D3C42] px-10 shadow-md pb-12"
+      >
+        <header class="pb-6">
+          <div
+            class="border-b border-slate-300 dark:border-slate-600 border-solid pt-12 pb-2 text-center"
+          >
+            <h1 class="text-3xl pb-4 dark:text-white">{note.data.title}</h1>
+
+            <div
+              class="grid grid-rows-1 grid-cols-2 pt-4 text-sm text-gray-400"
+            >
+              <time
+                datetime={note.data.firstPlanted.toISOString()}
+                class="place-self-start"
+              >
+                <span class="text-gray-500 dark:text-gray-400 font-bold"
+                  >First Planted</span
+                >: {formatDate(note.data.firstPlanted)}
+              </time>
+              <time
+                datetime={note.data.lastTended.toISOString()}
+                class="place-self-end"
+              >
+                <span class="text-gray-500 font-bold">Last Tended</span>: {
+                  formatDate(note.data.lastTended)
+                }
+              </time>
+            </div>
+          </div>
+        </header>
+
+        <NoteTOC headings={headings} />
+        <div class="mt-4 prose max-w-none dark:prose-invert">
+          <Content components={components} />
+        </div>
+
+        {/* TODO: Add RelatedNotes component here */}
+        {/* TODO: Add Backlinks component here */}
+        {/* TODO: Add Series navigation (prev/next) here */}
+      </div>
+    </div>
+  </article>
+</BaseLayout>

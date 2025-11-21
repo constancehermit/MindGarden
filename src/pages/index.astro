@@ -1,0 +1,56 @@
+---
+import BaseLayout from "../layouts/baseLayout.astro";
+import NoteCard from "../components/NoteCard.astro";
+import { getCollection } from "astro:content";
+
+const notes = (await getCollection("garden")).sort(
+  (a, b) =>
+    new Date(b.data.lastTended).getTime() -
+    new Date(a.data.lastTended).getTime(),
+);
+---
+
+<BaseLayout>
+  <div class="font-sans px-4">
+    <h1 class="text-4xl text-center pt-8 pb-6">Mind Garden</h1>
+
+    <div class="text-center max-w-4xl mx-auto">
+      <div class="p-4 lg:px-8 md:p-4 mb-8">
+        <span class="prose dark:prose-invert">
+          A place where I plant and tend to my half-finished thoughts.
+        </span>
+      </div>
+    </div>
+
+    <section aria-labelledby="notes-heading" class="max-w-7xl mx-auto">
+      <h2 id="notes-heading" class="sr-only">Garden Notes</h2>
+
+      <div id="masonry-grid" class="pb-8">
+        {
+          notes.map(({ id, data }) => (
+            <div class="masonry-item w-full sm:w-1/2 lg:w-1/3 p-2">
+              <NoteCard
+                slug={id}
+                title={data.title}
+                growthStage={data.growthStage}
+              />
+            </div>
+          ))
+        }
+      </div>
+    </section>
+  </div>
+</BaseLayout>
+
+<script>
+  import Masonry from "masonry-layout";
+
+  document.addEventListener("DOMContentLoaded", () => {
+    new Masonry("#masonry-grid", {
+      itemSelector: ".masonry-item",
+      percentPosition: true,
+      columnWidth: ".masonry-item",
+      gutter: 0,
+    });
+  });
+</script>

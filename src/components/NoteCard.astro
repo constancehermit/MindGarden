@@ -1,0 +1,63 @@
+---
+import { Image } from "astro:assets";
+import GrowthStageIcon from "./shared/GrowthStageIcon.astro";
+
+interface Props {
+  slug: string;
+  title: string;
+  growthStage?: "seed" | "sprout" | "plant";
+}
+
+const { slug, title, growthStage } = Astro.props;
+
+// Try to load thumbnail image
+let thumbnail;
+try {
+  // Dynamically import the thumbnail from the note's directory
+  const images = import.meta.glob<{ default: ImageMetadata }>(
+    "/src/content/garden/**/preview-thumbnail.{png,jpg,jpeg,webp}",
+    { eager: true },
+  );
+
+  // Find the thumbnail for this specific note
+  const thumbnailPath = `/src/content/garden/${slug}/preview-thumbnail.png`;
+  thumbnail = images[thumbnailPath]?.default;
+} catch (e) {
+  // No thumbnail found, that's okay
+  thumbnail = undefined;
+}
+---
+
+<a
+  href={`/garden/${slug}`}
+  class="block transition duration-500 ease-in-out hover:-translate-y-1"
+>
+  <article
+    class="bg-white dark:bg-[#3D3C42] shadow-md rounded-md p-6 h-full text-center"
+  >
+    {
+      growthStage && (
+        <div class="grid place-items-center mb-3">
+          <GrowthStageIcon growthStage={growthStage} />
+        </div>
+      )
+    }
+
+    <h2 class="text-2xl font-semibold mb-4 dark:text-white">
+      {title}
+    </h2>
+
+    {
+      thumbnail && (
+        <Image
+          src={thumbnail}
+          alt={`Thumbnail for ${title}`}
+          class="w-full h-auto rounded"
+          loading="lazy"
+          widths={[400, 600, 800]}
+          sizes="(max-width: 640px) 400px, (max-width: 1024px) 600px, 800px"
+        />
+      )
+    }
+  </article>
+</a>

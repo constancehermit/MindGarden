@@ -1,0 +1,48 @@
+---
+import ideaSeed from "../../assets/icons/idea-seed.png";
+import ideaSeedDark from "../../assets/icons/idea-seed-dark.png";
+import experimentSprout from "../../assets/icons/experiment-sprout.png";
+import experimentSproutDark from "../../assets/icons/experiment-sprout-dark.png";
+import essayPlant from "../../assets/icons/essay-plant.png";
+import essayPlantDark from "../../assets/icons/essay-plant-dark.png";
+
+interface Props {
+  growthStage: "seed" | "sprout" | "plant";
+  class?: string;
+}
+
+const { growthStage, class: className = "w-10 h-10" } = Astro.props;
+
+const iconMap = {
+  seed: { light: ideaSeed, dark: ideaSeedDark, alt: "Idea Seed" },
+  sprout: {
+    light: experimentSprout,
+    dark: experimentSproutDark,
+    alt: "Experiment Sprout",
+  },
+  plant: { light: essayPlant, dark: essayPlantDark, alt: "Essay Plant" },
+};
+
+const icons = iconMap[growthStage];
+
+if (!icons) {
+  console.warn(`Growth stage "${growthStage}" not configured`);
+}
+---
+
+{
+  icons && (
+    <>
+      <img
+        src={icons.light.src}
+        alt={icons.alt}
+        class={`${className} dark:hidden`}
+      />
+      <img
+        src={icons.dark.src}
+        alt={icons.alt}
+        class={`${className} hidden dark:block`}
+      />
+    </>
+  )
+}

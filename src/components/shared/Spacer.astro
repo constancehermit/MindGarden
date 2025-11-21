@@ -1,0 +1,10 @@
+---
+interface Props {
+  height?: number;
+}
+
+const { height = 4 } = Astro.props;
+const spacing = height * 0.25; // Convert to rem (Tailwind scale: 4 = 1rem)
+---
+
+<div style={`height: ${spacing}rem`}></div>

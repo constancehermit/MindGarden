@@ -1,0 +1,55 @@
+---
+import { Icon } from "astro-icon/components";
+---
+
+<!-- TODO: open from left, change colours, add elements -->
+<el-dialog>
+  <dialog
+    id="drawer"
+    aria-labelledby="drawer-title"
+    class="fixed inset-0 size-auto max-h-none max-w-none overflow-hidden bg-transparent not-open:hidden backdrop:bg-transparent"
+  >
+    <el-dialog-backdrop
+      class="absolute inset-0 bg-gray-900/50 transition-opacity duration-500 ease-in-out data-closed:opacity-0"
+    ></el-dialog-backdrop>
+
+    <div
+      tabindex="0"
+      class="absolute inset-0 pr-10 focus:outline-none sm:pr-16"
+    >
+      <el-dialog-panel
+        class="group/dialog-panel relative mr-auto block size-full max-w-md transform transition duration-500 ease-in-out data-closed:-translate-x-full sm:duration-700"
+      >
+        <!-- Drawer content -->
+        <div
+          class="relative flex h-full flex-col overflow-y-auto bg-gray-800 py-6 shadow-xl after:absolute after:inset-y-0 after:right-0 after:w-px after:bg-white/10"
+        >
+          <div class="px-4 sm:px-6">
+            <h2 class="mb-4 text-white font-bold text-lg">Signposts</h2>
+            <ul class="text-white mt-2 text-med">
+              <li class="flex items-center gap-2">
+                <Icon name="mdi:lead-pencil" class="w-5 h-5" />
+                Studio
+              </li>
+              <li class="flex items-center gap-2">
+                <Icon name="mdi:bookshelf" class="w-5 h-5" />
+                Library
+              </li>
+            </ul>
+            <div class="mt-6 pb-1 flex items-center gap-2 text-sm">
+              <a href="/" class="flex items-center gap-2 text-white">
+                <Icon name="mdi:footprints" class="w-5 h-5" />
+                Return to The Garden
+              </a>
+            </div>
+          </div>
+          <nav
+            class="relative mt-6 flex-1 px-4 sm:px-6"
+            aria-label="Drawer navigation"
+          >
+          </nav>
+        </div>
+      </el-dialog-panel>
+    </div>
+  </dialog>
+</el-dialog>

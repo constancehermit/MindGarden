@@ -1,0 +1,38 @@
+---
+export interface TocHeading {
+  depth: number;
+  slug: string;
+  text: string;
+}
+
+interface Props {
+  headings: TocHeading[];
+}
+
+const { headings } = Astro.props;
+---
+
+{
+  headings.length > 0 && (
+    <nav class="pt-2 border-b border-slate-300 border-solid">
+      <h3 class="text-xl dark:text-white">Contents</h3>
+      <div id="toc" class="prose pb-4">
+        <ul class="list-none pl-0">
+          {headings.map((link) => (
+            <li
+              class:list={[
+                { "pl-0": link.depth === 1 },
+                { "pl-4": link.depth === 2 },
+                { "pl-8": link.depth === 3 },
+              ]}
+            >
+              {link.depth === 2 && <span>→ </span>}
+              {link.depth === 3 && <span>↳ </span>}
+              <a href={`#${link.slug}`}>{link.text}</a>
+            </li>
+          ))}
+        </ul>
+      </div>
+    </nav>
+  )
+}

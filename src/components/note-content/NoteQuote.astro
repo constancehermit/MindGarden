@@ -1,0 +1,30 @@
+---
+interface Props {
+  quote: string;
+  sourceLink?: string;
+  sourceText?: string;
+}
+
+const { quote, sourceLink, sourceText } = Astro.props;
+---
+
+<blockquote
+  class="my-6 border-l-4 border-gray-300 dark:border-gray-600 pl-6 py-2"
+>
+  <span class="mb-2">
+    <b class="text-gray-900 dark:text-gray-100">{quote}</b>
+  </span>
+  {
+    sourceLink && sourceText && (
+      <span class="text-sm text-slate-400/75 italic">
+        {" "}
+        <a
+          href={sourceLink}
+          class="hover:text-slate-600 dark:hover:text-slate-300 transition-colors"
+        >
+          {sourceText}
+        </a>
+      </span>
+    )
+  }
+</blockquote>
