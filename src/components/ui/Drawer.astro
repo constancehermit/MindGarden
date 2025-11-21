@@ -2,11 +2,11 @@
 import { Icon } from "astro-icon/components";
 ---
 
-<!-- TODO: open from left, change colours, add elements -->
 <el-dialog>
   <dialog
     id="drawer"
     aria-labelledby="drawer-title"
+    aria-modal="true"
     class="fixed inset-0 size-auto max-h-none max-w-none overflow-hidden bg-transparent not-open:hidden backdrop:bg-transparent"
   >
     <el-dialog-backdrop
@@ -24,32 +24,86 @@ import { Icon } from "astro-icon/components";
         <div
           class="relative flex h-full flex-col overflow-y-auto bg-gray-800 py-6 shadow-xl after:absolute after:inset-y-0 after:right-0 after:w-px after:bg-white/10"
         >
-          <div class="px-4 sm:px-6">
-            <h2 class="mb-4 text-white font-bold text-lg">Signposts</h2>
-            <ul class="text-white mt-2 text-med">
-              <li class="flex items-center gap-2">
-                <Icon name="mdi:lead-pencil" class="w-5 h-5" />
-                Studio
-              </li>
-              <li class="flex items-center gap-2">
-                <Icon name="mdi:bookshelf" class="w-5 h-5" />
-                Library
-              </li>
-            </ul>
-            <div class="mt-6 pb-1 flex items-center gap-2 text-sm">
-              <a href="/" class="flex items-center gap-2 text-white">
-                <Icon name="mdi:footprints" class="w-5 h-5" />
-                Return to The Garden
-              </a>
-            </div>
+          <!-- Close button -->
+          <div class="absolute top-4 right-4 sm:top-6 sm:right-6">
+            <button
+              type="button"
+              command="close"
+              commandfor="drawer"
+              aria-label="Close panel"
+              class="rounded-md text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
+            >
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.5"
+                aria-hidden="true"
+                class="size-6"
+              >
+                <path
+                  d="M6 18 18 6M6 6l12 12"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"></path>
+              </svg>
+              <span class="sr-only">Close</span>
+            </button>
           </div>
-          <nav
-            class="relative mt-6 flex-1 px-4 sm:px-6"
-            aria-label="Drawer navigation"
-          >
-          </nav>
+
+          <div class="px-4 sm:px-6">
+            <h2 id="drawer-title" class="mb-4 text-white font-bold text-lg">
+              Signposts
+            </h2>
+            <nav aria-label="Signposts navigation">
+              <ul class="text-white mt-2 text-med">
+                <li class="flex items-center gap-2">
+                  <Icon
+                    name="mdi:lead-pencil"
+                    class="w-5 h-5"
+                    aria-hidden="true"
+                  />
+                  Studio
+                </li>
+                <li class="flex items-center gap-2">
+                  <Icon
+                    name="mdi:bookshelf"
+                    class="w-5 h-5"
+                    aria-hidden="true"
+                  />
+                  Library
+                </li>
+              </ul>
+              <div class="mt-6 pb-1 flex items-center gap-2 text-sm">
+                <a href="/" class="flex items-center gap-2 text-white">
+                  <Icon
+                    name="mdi:footprints"
+                    class="w-5 h-5"
+                    aria-hidden="true"
+                  />
+                  Return to The Garden
+                </a>
+              </div>
+            </nav>
+          </div>
         </div>
       </el-dialog-panel>
     </div>
   </dialog>
 </el-dialog>
+
+<script>
+  const drawer = document.getElementById("drawer");
+  const drawerTrigger = document.querySelector('[commandfor="drawer"]');
+
+  // Update aria-expanded when drawer state changes
+  const updateAriaExpanded = () => {
+    const isOpen = drawer?.hasAttribute("open");
+    drawerTrigger?.setAttribute("aria-expanded", isOpen ? "true" : "false");
+  };
+
+  // Listen for drawer open/close events
+  drawer?.addEventListener("toggle", updateAriaExpanded);
+  drawerTrigger?.addEventListener("click", () => {
+    setTimeout(updateAriaExpanded, 0);
+  });
+</script>
