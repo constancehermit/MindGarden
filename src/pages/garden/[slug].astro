@@ -4,6 +4,7 @@ import { getCollection, getEntry, render } from "astro:content";
 import NoteQuote from "../../components/note-content/NoteQuote.astro";
 import NoteIllustration from "../../components/note-content/NoteIllustration.astro";
 import NotePolaroid from "../../components/note-content/NotePolaroid.astro";
+import NoteTweet from "../../components/note-content/NoteTweet.astro";
 
 export async function getStaticPaths() {
   const notes = await getCollection("garden");
@@ -35,6 +36,7 @@ const components = {
   NoteQuote,
   NoteIllustration,
   NotePolaroid,
+  NoteTweet,
 };
 
 // TODO: related notes functionality (tag-based)
