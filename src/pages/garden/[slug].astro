@@ -3,6 +3,7 @@ import BaseLayout from "../../layouts/baseLayout.astro";
 import { getCollection, getEntry, render } from "astro:content";
 import NoteQuote from "../../components/note-content/NoteQuote.astro";
 import NoteIllustration from "../../components/note-content/NoteIllustration.astro";
+import NotePolaroid from "../../components/note-content/NotePolaroid.astro";
 
 export async function getStaticPaths() {
   const notes = await getCollection("garden");
@@ -33,6 +34,7 @@ const formatDate = (date: Date) => {
 const components = {
   NoteQuote,
   NoteIllustration,
+  NotePolaroid,
 };
 
 // TODO: related notes functionality (tag-based)

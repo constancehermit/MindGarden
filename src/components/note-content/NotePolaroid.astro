@@ -1,0 +1,58 @@
+---
+interface Props {
+  src: string;
+  alt: string;
+  caption: string;
+  sourcetext?: string;
+  sourcelink?: string;
+}
+
+const { src, alt, caption, sourcetext, sourcelink } = Astro.props;
+
+// Import the image dynamically from the content directory
+// The src should include the subdirectory path relative to the MDX file
+const images = import.meta.glob<{ default: ImageMetadata }>(
+  "/src/content/**/*.{png,jpg,jpeg,gif,webp}",
+);
+
+// Find the matching image
+let imagePath = "";
+for (const path in images) {
+  if (path.includes(src)) {
+    imagePath = path;
+    break;
+  }
+}
+
+const resolvedImage = imagePath ? await images[imagePath]() : null;
+---
+
+<div
+  class="mx-auto border-2 rounded-lg max-w-max bg-white px-4 pt-4 pb-4 grid place-items-center"
+>
+  {
+    resolvedImage ? (
+      <img
+        src={resolvedImage.default.src}
+        alt={alt}
+        width={resolvedImage.default.width}
+        height={resolvedImage.default.height}
+        class="mt-0 mb-2 sm:max-w-full md:max-w-sm lg:max-w-md"
+      />
+    ) : (
+      <img
+        src={src}
+        alt={alt}
+        class="mt-0 mb-2 sm:max-w-full md:max-w-sm lg:max-w-md"
+      />
+    )
+  }
+  <span>{caption}</span>
+  {
+    sourcelink && sourcetext && (
+      <span>
+        (via <a href={sourcelink}>{sourcetext}</a>)
+      </span>
+    )
+  }
+</div>

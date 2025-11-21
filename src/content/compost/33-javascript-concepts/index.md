@@ -26,13 +26,13 @@ How are we going to get from Javascript to machine code? We're going to need an 
 ### V8 Engine
 Google's JS Engine for Chrome is called V8. Released in 2008. Written in C++. More on this later.
 
-<note-polaroid-image
+<NotePolaroid
     src="33-javascript-concepts/v8-architecture-1.png"
     alt="Image shows an architectural diagram of Google's V8 engine. Named components include the Parser, AST, Interpreter, Heap, Profiler, and Compiler"
     caption="Here's a handy diagram"
     sourcelink="https://blog.bitsrc.io/how-does-javascript-really-work-part-1-7681dd54a36d"
-    sourcetext="blog.bitsrc.io">
-</note-polaroid-image>
+    sourcetext="blog.bitsrc.io"
+/>
 
 ---
 
