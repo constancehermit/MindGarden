@@ -2,6 +2,7 @@
 import BaseLayout from "../../layouts/baseLayout.astro";
 import { getCollection, getEntry, render } from "astro:content";
 import NoteQuote from "../../components/note-content/NoteQuote.astro";
+import NoteIllustration from "../../components/note-content/NoteIllustration.astro";
 
 export async function getStaticPaths() {
   const notes = await getCollection("garden");
@@ -31,6 +32,7 @@ const formatDate = (date: Date) => {
 // Provide components globally to all MDX files
 const components = {
   NoteQuote,
+  NoteIllustration,
 };
 
 // TODO: related notes functionality (tag-based)

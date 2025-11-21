@@ -39,11 +39,11 @@ Google's JS Engine for Chrome is called V8. Released in 2008. Written in C++. Mo
 ## The JS Call Stack
 Micro, macro, metaphor... where to begin? 
 
-<note-illustration-image
+<NoteIllustration
     src="33-javascript-concepts/FILENAME.png"
     alt="The stack is a Last In First Out Structure, as illustrated by a stack of plates."
-    caption="The stack is a Last In First Out Structure">
-</note-illustration-image>
+    caption="The stack is a Last In First Out Structure"
+/>
 
 ### Execution Context
 When we talk about 'running' code, we're referring to a two-step process:

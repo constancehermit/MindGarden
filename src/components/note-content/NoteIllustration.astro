@@ -1,0 +1,69 @@
+---
+interface Props {
+  src: string;
+  alt: string;
+  caption?: string;
+  isCenter?: boolean;
+  isFullWidth?: boolean;
+  sourcetext?: string;
+  sourcelink?: string;
+}
+
+const {
+  src,
+  alt,
+  caption,
+  isCenter = false,
+  isFullWidth = false,
+  sourcetext,
+  sourcelink,
+} = Astro.props;
+
+// Import the image dynamically from the content directory
+// The src should include the subdirectory path relative to the MDX file
+const images = import.meta.glob<{ default: ImageMetadata }>(
+  "/src/content/**/*.{png,jpg,jpeg,gif,webp}",
+);
+
+// Find the matching image
+let imagePath = "";
+for (const path in images) {
+  if (path.includes(src)) {
+    imagePath = path;
+    break;
+  }
+}
+
+const resolvedImage = imagePath ? await images[imagePath]() : null;
+---
+
+<div class={isCenter ? "grid place-items-center" : ""}>
+  <div
+    class:list={[
+      "sm:max-w-full md:max-w-sm",
+      isFullWidth ? "lg:max-w-full" : "lg:max-w-lg",
+    ]}
+  >
+    {
+      resolvedImage ? (
+        <img
+          src={resolvedImage.default.src}
+          alt={alt}
+          width={resolvedImage.default.width}
+          height={resolvedImage.default.height}
+          class="mt-0 mb-1"
+        />
+      ) : (
+        <img src={src} alt={alt} class="mt-0 mb-1" />
+      )
+    }
+  </div>
+  {caption && <span class="text-xs">{caption}</span>}
+  {
+    sourcelink && sourcetext && (
+      <span class="text-xs mt-0">
+        (via <a href={sourcelink}>{sourcetext}</a>)
+      </span>
+    )
+  }
+</div>
