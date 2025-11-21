@@ -8,8 +8,7 @@ import tailwindcss from "@tailwindcss/vite";
 
 // https://astro.build/config
 export default defineConfig({
-  // TODO: update URL on merging feature branch
-  site: "https://example.com",
+  site: "https://drawntocode.com",
   integrations: [
     mdx(),
     sitemap(),
@@ -19,7 +18,6 @@ export default defineConfig({
       },
     }),
   ],
-
   vite: {
     plugins: [tailwindcss()],
   },
