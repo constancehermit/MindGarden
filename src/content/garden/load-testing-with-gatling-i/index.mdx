@@ -52,10 +52,10 @@ I like using it. Does that qualify as enough justification on it's own?
 Let's have some reasons, to make it clearer. It's code oriented, so I can use all the lovely make-life-easier dev practices like source control, peer review, and IDE* integration,
 aaaand build it into CI/CD* pipelines. Plus, although Gatling is written in Scala, you interact with it using the (easy to understand) DSL*, so no language-specific proficiency is required.
 
-<definitions text="IDE: Integrated Development Environment (e.g. Eclipse, IntelliJ)
+<NoteDefinition text="IDE: Integrated Development Environment (e.g. Eclipse, IntelliJ)
 CI/CD: Continuous Integration / Continuous Deployment
-DSL: Domain Specific Language">
-</definitions>
+DSL: Domain Specific Language"
+/>
 
 <Spacer height={4}/>
 
@@ -113,7 +113,7 @@ With Gatling, our target SUITs are Web Applications.
 
 If it's running on a web server, accessible over an internet connection, then it's a Web App, and we can aim Gatling at it to put it under stress. Amazon, Twitter, Spotify, Netflix, Google Docs: all Web Apps.
 
-<definitions text="SUIT: System Under Intense Test"></definitions>
+<NoteDefinition text="SUIT: System Under Intense Test"/>
 
 <NoteIllustration
     src="gatling-i/suits.png"
@@ -142,8 +142,8 @@ Web Apps have a Front-end (or Client-side) and a Back-end (or Server-side).
 The Client-side is, unsurprisingly, where we find the Client. This could be an End-User, using the Twitter app on their smartphone to scroll through their timeline or compose a Tweet (via the UI).
 It could also be a third-party Consumer such as a WordPress Blog, displaying recent tweets on its homepage (via the API).
 
-<definitions text="UI: User Interface
-API: Application Programming Interface"></definitions>
+<NoteDefinition text="UI: User Interface
+API: Application Programming Interface"/>
 
 On the Server-side we find the application itself.
 This might be comprised of several components, services, databases, external data providers, and so forth, all the logic and data required to fulfil client requests.
@@ -189,7 +189,7 @@ TODO: Slideshow goes here
 One of the things I like about Gatling is that it implements virtual users. Not all load testing tools do! Sure, hammering endpoints is fine, maybe that's all we need if we're testing a stateless REST API.
 Not, however, if we know our application is going to have to deal with requests from many concurrent users, each potentially with their own data and behaviours.
 
-<definitions text="REST: REpresentational State Transfer (architectural style for web services)"></definitions>
+<NoteDefinition text="REST: REpresentational State Transfer (architectural style for web services)"/>
 
 
 ### Scenarios
